@@ -1,0 +1,3 @@
+P_DIAS= 42
+P_SEMANA = 100
+SEMANA = 7
