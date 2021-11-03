@@ -2,23 +2,11 @@
 
 #25/01/2000
 def nacimiento():
-    meses = {
-     1:'enero',
-     2:'febrero',
-     3:'marzo',
-     4:'abril',
-     5:'mayo',
-     6:'junio',
-     7:'julio',
-     8:'agosto',
-     9:'septiembre',
-     10:'octubre',
-     11:'noviembre',
-     12:'diciembre'}
+    from Constantes_meses import MESES
     fecha = input('Dime caundo naciste (dd/mm/aaaa): ')
     partes_fecha = fecha.split('/')
     mes = int(partes_fecha[1]) - 1
-    mensaje = 'Naciste el dia ' + partes_fecha[0] + ' del mes de ' + meses[int(partes_fecha[1])] + ' del año ' + partes_fecha[2]
+    mensaje = 'Naciste el dia ' + partes_fecha[0] + ' del mes de ' + MESES[int(partes_fecha[1])] + ' del año ' + partes_fecha[2]
     return mensaje
 
 print(nacimiento())
