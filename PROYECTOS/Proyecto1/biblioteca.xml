@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding=="utf-8" 
+standalone="no"?>
+<!DOCTYPE biblioteca>
+<biblioteca>
+    <libro>
+        <titulo>La búsqueda incansable </titulo>
+        <autor>Sebastián Torres</autor>
+        <autor>Anna Sánchez</autor>
+        <editorial>Ediciones Plum</editorial>
+        <isbn>978‐2‐7460‐4344-1</isbn>
+        <edicion>2</edicion>
+        <paginas>540</paginas>
+    </libro>
+</biblioteca>
