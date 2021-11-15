@@ -1,0 +1,7 @@
+listas-2,holamundo,Funciondoble,ficheros,Adivinar-2
+rutas,listas,ejercicio-vectores,Ruta_ejercicio_teo2,vista_archivos
+Cortar_cadenas,Diccionario_input,Bucles,Ruta_ejercicio_teo,Adivinar
+Constantes_meses,operaciones_con_listas,funcion_importe,Comprar_listas,Bucle-cadena
+ficheros_2,Funcionadivina,variables,condicionales,constantes_parking
+notas,fecha_de_nacimiento,rutas_ejercicio,settings,pruebas
+Funciones-1
