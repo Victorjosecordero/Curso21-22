@@ -53,5 +53,4 @@ def leer_dict():
 
     return lista_dict
 
-
-pprint.pprint(leer_dict())
+pprint.piprint(leer_dict())
