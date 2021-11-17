@@ -8,6 +8,7 @@ ruta = "/home/victorjose/Desktop/VSCODE/codigo/Git/Curso21-22/csv/"
 def contador():
     df = pd.read_csv(ruta + 'titanic.csv')
     survived = df['Survived']
+    
 
     vivos = 0
 
@@ -22,7 +23,5 @@ def contador():
 
 v,m = contador()
 
-print('Vivieron:')
-print(v)
-print('Murieron:')
-print(m)
+print(f'Vivieron: {v}')
+print(f'Murieron: {m}')
