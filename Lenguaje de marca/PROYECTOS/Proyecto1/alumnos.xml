@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding=="iso-8859-1" standalone="no"?>
+<!DOCTYPE alumnos>
+    <alumnos>
+        <nombre>Juan Romero Sánchez</nombre>
+        <nombre>Teresa Cercas Torres</nombre>
+        <nombre></nombre>
+</alumnos>

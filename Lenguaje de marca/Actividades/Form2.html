@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <form action="destino.html" method="post">
+        <fieldset>
+            <legend>Por favor,complete estas opciones</legend>
+            <div>
+                Elija una fecha <input type="date">
+            </div>
+            <div>
+                Elija un fichero<input type="file">
+            </div>
+            <div>
+                <input type="checkbox" name="tipos">JPG
+                <input type="checkbox" name="tipos">PNG
+            </div>
+            <div>
+                <input type="radio" name="tipos2">JPG
+                <input type="radio" name="tipos2">PNG
+            </div>
+            <div>
+                Elija un color<input type="color">
+            </div>
+            <div>
+                Instituto <input type="text">
+            </div>
+            <div>
+                Estudios elegidos<input type="text">
+            </div>
+            <div>
+                <textarea placeholder="Inserte el texto aquí" cols="45" rows="5"></textarea>
+            </div>
+            <div>
+                Elija una hora<input type="time">
+            </div>
+            <div>
+                <select name="opciones" multiple>
+                    <option value="1">Tarjeta aceleradora</option>
+                    <option value="2">Monitor LED</option>
+                    <option value="3">SSD</option>
+                    <option value="4">Red</option>
+                </select>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+        </div>
+    </form>
+</body>
+</html>
