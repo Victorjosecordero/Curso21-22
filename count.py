@@ -55,16 +55,16 @@ def personas():
     m_v = 0
     m_m = 0
     for l in lista_dicionario:
-        if l['Sex'] == 'male':
-            hombres.append[l['Survived']]
-        else:
-           mujeres.append[l['Survived']]
-    h_v = hombres.count(1)
-    h_m = hombres.count(0)
-    m_v = mujeres.count(1)
-    m_m = mujeres.count(0)
+        if l['Sex'] == 'male' and l['Survived'] == '1':
+            h_v += 1
+        if l['Sex'] == 'male' and not l['Survived'] == '0':
+            h_m += 1
+        if l['Sex'] == 'female' and l['Survived'] == '1':
+            m_v += 1
+        if l['Sex'] == 'female' and not l['Survived'] == '1':
+            m_m += 1
 
     return (h_m,h_v,m_v,m_m)
 resultado = personas()
-print(f'Hombres vivos: {resultado[0]} Hombres muertos: {resultado[1]}')
-print(f'Mujeres vivas: {resultado[2]} Mujeres muertas: {resultado[3]}')
+print(f'Hombres vivos: {resultado[1]} Hombres muertos: {resultado[0]}')
+print(f'Mujeres vivas: {resultado[3]} Mujeres muertas: {resultado[2]}')
