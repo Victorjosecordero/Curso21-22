@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+</head>
+<body>
+<form action="destino.html" method="post">
+    <fieldset>
+            <legend>Por favor complete estas opciones</legend>
+            <div>
+            <label for="escritorio">Selecciona escritorio</label>
+                <select name="form1" >
+                    <option value="1">KDE</option>
+                    <option value="2">GNOME</option>
+                    <option value="3">Unity</option>
+                </select>
+            </div>
+            <p>Observaciones</p>
+            <div>
+                <label for="textarea"></label>
+                <textarea placeholder="Inserte aquí, porfavor" cols="45" rows="5" ></textarea>
+            </div>
+            <div>
+                <label for="color">Elija un color</label>
+                <input type="color" name="form1">
+            </div>
+            <div>
+                <label for="hora">Elija una hora</label>
+                <input type="time">
+            </div>
+    </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+        </div>
+</form >
+</body>
+</html>
