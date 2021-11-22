@@ -30,7 +30,7 @@ from mmap import MADV_REMOVE
 import pprint
 import csv
 
-ruta = "/home/victorjose/Desktop/VSCODE/codigo/Git/Curso21-22/csv/"
+ruta = "/home/victorjose/Github/Curso21-22/Programacion/csv/"
 
 
 def leer_dict():
@@ -57,7 +57,7 @@ def personas():
     for l in lista_dicionario:
         if l['Sex'] == 'male' and l['Survived'] == '1':
             h_v += 1
-        if l['Sex'] == 'male' and not l['Survived'] == '0':
+        if l['Sex'] == 'male' and not l['Survived'] == '1':
             h_m += 1
         if l['Sex'] == 'female' and l['Survived'] == '1':
             m_v += 1
