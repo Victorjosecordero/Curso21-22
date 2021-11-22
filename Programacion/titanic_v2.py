@@ -20,19 +20,18 @@ def leer_dict():
 
 lista_dicionario = leer_dict()
 def imprimir():
+    hay_cabecera = False
     for i in lista_dicionario:
         if i['Age'] >= '20' and i['Age'] <= '30' and i['Survived'] == '1':
-            # print(f'Nombre: {i["Name"]}')
-            # print(f'Clase: {i["Pclass"]}')
-            # print(f'Sexo: {i["Sex"]}')
-             with open(ruta + 'titanic_nombres','a') as csv_writer:
+             with open(ruta + 'titanic_nombres.csv','a') as csv_writer:
                 escribir = csv.writer(csv_writer)
-                escribir.writerow([f'Nombre: {i["Name"]}'])
-                escribir.writerow([f'Clase: {i["Pclass"]}'])
-                escribir.writerow([f'Sexo: {i["Sex"]}'])
-        else:
-            pass
-
-    return 
+                if not hay_cabecera:
+                    escribir.writerow(["Nombre","Clase","Sexo"])
+                    hay_cabecera = True
+                else:
+                    escribir.writerow([i["Name"],i["Pclass"],i["Sex"]])
+                # escribir.writerow([f'Nombre: {i["Name"]}'])
+                # escribir.writerow([f'Clase: {i["Pclass"]}'])
+                # escribir.writerow([f'Sexo: {i["Sex"]}'])
 
 imprimir()
