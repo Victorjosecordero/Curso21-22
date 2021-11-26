@@ -7,18 +7,18 @@ class Coche():
 
 
 os.system('clear')
-bmw = Coche()
-bmw.color = 'Verde'
-bmw.matricula = '1234-jio'
-bmw.num_puertas = 2
-bmw.precio = 20000
-bmw.marca = 'BMW'
-bmw.modelo = 'Panda'
+ds7 = Coche()
+ds7.color = 'Verde'
+ds7.matricula = '1234-jio'
+ds7.num_puertas = 2
+ds7.precio = 20000
+ds7.marca = 'ds7'
+ds7.modelo = 'Panda'
 
-print(f'Color:{bmw.color}')
-print(f'Nº de puertas:{bmw.num_puertas}')
-print(f'Nº matricula: {bmw.matricula}')
-print(f'Precio: {bmw.precio}')
-pprint.pprint(dir(bmw))
-pprint.pprint(bmw.__class__)
-pprint.pprint(bmw.__dict__)
+print(f'Color:{ds7.color}')
+print(f'Nº de puertas:{ds7.num_puertas}')
+print(f'Nº matricula: {ds7.matricula}')
+print(f'Precio: {ds7.precio}')
+pprint.pprint(dir(ds7))
+pprint.pprint(ds7.__class__)
+pprint.pprint(ds7.__dict__)
