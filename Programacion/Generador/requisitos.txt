@@ -1,0 +1,2 @@
+1.Generar el esqueleto de una pagina Web
+2.Apartir de una lista genere una tabla html

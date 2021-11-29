@@ -5,8 +5,7 @@ class Gestion_csv():
     fichero_destino = ''
 
     def __init__(self,origen=None,destino=None) -> None:
-        self.fichero_origen = origen
-        self.fichero_destino = destino
+        pass
     def leer(self):
         pass
     def escribir(self,contenido):
@@ -16,6 +15,6 @@ class Gestion_csv():
 
 
 
-f = Gestion_csv(origen,destino)
+f = Gestion_csv(destino='/home/victorjose/Github/Curso21-22/Programacion/Archivos/archivo.csv')
 contenido = f.leer()
 f.escribir(contenido)
