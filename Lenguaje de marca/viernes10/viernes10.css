@@ -1,0 +1,35 @@
+table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+table, th,td{
+    border: 1px solid rgb(180,15,139);
+    line-height: 2em;
+}
+th{
+    background-color: #f5f5f5;
+    padding: 0 .5em;
+    background-image: url(imagenes/200.gif);
+    background-size: cover;
+}
+th:hover{
+    background-image: url(imagenes/doctor-octopus.gif);
+    background-size: cover;
+}
+td{
+    padding: 0 .9em;
+    text-align: center;
+    background-image: url(imagenes/spiderman.gif);
+    background-size: cover;
+}
+td:hover{
+    background-image: url(imagenes/duende.gif);
+}
+td:nth-child(odd){
+    background-image: url(imagenes/duende.gif);
+
+}
+td:nth-child(odd):hover{
+    background-image: url(imagenes/spiderman.gif);
+}
