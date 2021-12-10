@@ -1,8 +1,8 @@
 import os
 import csv
 import pprint
-
 ruta = '/home/victorjose/Desktop/VSCODE/codigo/Git/Curso21-22/csv/'
+
 def leer_csv_normal():
     with open(ruta + 'archivos.csv') as csv_in:
         filas = csv_in.readlines()

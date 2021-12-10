@@ -1,3 +1,0 @@
-dasda 
-rgr
-graf
