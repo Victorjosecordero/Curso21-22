@@ -1,0 +1,45 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de la página</title>
+    <style>
+        body { 
+            width:80%;
+            border:2px red solid;
+            margin:0 auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        img { 
+            width: 100px;
+            height: 100px;
+        }
+        #oculta { /* la imagen empieza oculta */
+            visibility:hidden; /* mejor con display:none;*/
+        }
+        #imagenizq:hover #oculta {
+            visibility:visible; /* mejor con display:inline;*/
+        }
+        #imagenizq:hover #visible {
+            visibility:hidden; /* mejor con display:none;*/
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título principal</h1>
+    </header>
+    <main>
+        <picture id="imagenizq">
+            <img id="visible" src="imagenes/malpica1.jpg" alt="">
+            <img id="oculta" src="imagenes/malpica2.jpg" alt="">
+        </picture>
+        <picture id="imagender">
+            <img src="imagenes/malpica2.jpg" alt="">
+        </picture>
+    </main>
+</body>
+</html>

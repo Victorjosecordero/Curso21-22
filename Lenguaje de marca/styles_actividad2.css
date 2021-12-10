@@ -1,0 +1,25 @@
+main section{
+    height: 600px;
+    float: left;
+    border: 2px red solid;
+
+}
+#tabla{
+    width: 20%;
+
+}
+#tabla p{
+    text-align: center;
+}
+#tabla table{
+    margin: 0 auto;
+}
+
+table, th, td{
+    border: 2px red solid;
+    border-collapse: collapse;
+}
+#text{
+    float: right;
+    width: 40%;
+}

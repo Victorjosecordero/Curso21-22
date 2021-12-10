@@ -36,5 +36,8 @@ class CoroPrajaros():
         #     else:
         #         self.coro[p].cantar()
 
-c = CoroPrajaros()
+
+g = Gallo
 c.cantar()
+
+type(super(g))

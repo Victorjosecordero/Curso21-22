@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ1</title>
+    <style>
+        body{
+            width:80%;
+            border:2px blue solid;
+            margin:0 auto;
+        }
+        h1{
+            text-align: center;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        #ocultar{
+            display: none;
+        }
+        #imagen1:hover #ocultar{
+            display: inline;
+        }
+        #imagen1:hover #visible{
+            display: none;
+        }
+        div { display:inline;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titulo H1</h1>
+    </header>   
+    <main>
+        <div id="imagen1">
+            <img id="visible"src="imagenes/playa-mazagon-huelva-2_xoptimizadax-k3BE--1200x630@abc.jpg" alt="playa_mazagon_huelva">
+            <img id="ocultar"src="imagenes/descarga.jpeg" alt="foto_montaña">
+        </div>
+        <div id="imagen2">
+            <img src="imagenes/descarga.jpeg" alt=imagen_de_montaña>
+        </div>
+    </main>
+</body>
+</html>

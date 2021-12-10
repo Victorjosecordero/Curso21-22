@@ -1,0 +1,22 @@
+body{
+    width:80%;
+    margin:0 auto;
+  
+}
+h1{
+    text-align: center;
+}
+div{
+    border:green 4px solid;
+    width: auto;
+    height: 800px;
+    background-image: url(imagenes/arcane2.png);
+    background-size:cover;
+    cursor:wait;
+}
+
+div:hover{
+    background-image: url(imagenes/playa-mazagon-huelva-2_xoptimizadax-k3BE--1200x630@abc.jpg);
+    cursor:progress;
+}
+
