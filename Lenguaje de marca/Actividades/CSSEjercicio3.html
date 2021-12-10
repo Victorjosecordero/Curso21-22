@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cssEjercicio3.css">
+
+    <title>Ejercicio CSS3</title>
+</head>
+<body>
+   <header><h1>Ejercicio3</h1></header>
+   <main>
+       <section>
+           <h3>Tablas</h3>
+           <p>Modifica la siguiente tabla añadiendo reglas CSS (y si fuera necesario alguna etiqueta o clase/id también). Las propiedades más usadas para tablas las puedes encontrar en:
+               <ul>
+                   <li><a href="https://desarrolladoresweb.org/css/estilos-css-para-tablas/#Propiedades_CSS_para_personalizar_tablas_HTML" target="_blank">Desarrolladores Web</a></li>
+                   <li><a href="https://lineadecodigo.com/css/color-a-las-columnas-de-una-tabla-con-css/" target="_blank">Línea de código</a></li>
+               </ul> 
+               </p>
+           <TABLE>
+                <caption>Tabla 1</caption>
+                <TR>
+                    <TH class="separado">Origen</TH>
+                    <TH>Destino</TH>
+                    <TH>Medio</TH>
+                </TR>
+                <TR>
+                    <TD class="separado">Sevilla</TD>
+                    <TD>Cádiz</TD>
+                    <TD>Tren</TD>
+                </TR> 
+                <TR>
+                    <TD class="separado">Lugo</TD>
+                    <TD>Oviedo</TD>
+                    <TD>Coche</TD>
+                </TR> 
+            </TABLE>
+       </section >
+       <section>
+           <h3>Columnas</h3>
+           <p>El siguiente texto debes ponerlo en columnas aplicando las reglas CSS adecuadas a la caja que lo contiene. <a href="https://www.html6.es/t17_columnas.html" target="_blank">Leer más</a></p>
+           <div>
+               <p class="columnas">Actualmente la mayoría de ordenadores están conectados a alguna red (internet, intranet, etc.) y casi todos lo hacen utilizando el modelo TCP/IP. Este modelo es un protocolo para comunicación en redes que permite que un equipo pueda comunicarse dentro de una red. Está basado en el modelo teórico OSI de capas con la que comparte 4 de ellas; sin embargo, ofrece muchas más opciones y es un modelo práctico.</p>
+                <p class="columnas">La comprensión de las características principales de la pila de protocolos de Internet TCP/IP posibilita la configuración de redes básicas, por lo que conocer TCP/IP es fundamental en cualquier formación centrada en trabajar con redes e internet (se llama pila de protocolos a una colección ordenada de protocolos organizados por capas).</p>
+           </div>
+
+       </section>
+       <section>
+           <h3>Imágenes</h3>
+
+           <ol>
+                <li>Muestra una imagen en tres tamaños distintos usando la etiqueta <code>IMG</code></li>
+                <li>Muestra dos rectángulo con diferentes imágenes de fondo cada uno de ellos.<a href="https://www.mclibre.org/consultar/amaya/css/css-fondos.html" target="_blank">Más info.</a></li>
+                <li>Incluye <code>border-radius:150px;</code> en alguna imagen del punto 1. y comprueba otros formatos visuales para imágenes en las otras dos.
+                </li>
+                <li>Existe una propiedad (<code>object-fit: cover;</code> que se puede aplicar a una imagen con etiqueta <code>IMG</code>. ¿Para que sirve? Cuéntamelo en este documento usando una caja posicionada de forma absoluta.</li>
+           </div>
+               <picture>
+               <img id="imagen1" src="https://www.tuexperto.com/wp-content/uploads/2020/11/espacio-1200x640.jpg" alt="foto espacio">
+               <img id="imagen2" src="https://t2.pb.ltmcdn.com/es/posts/4/5/8/que_significa_sonar_con_la_playa_5854_600.jpg" alt="foto de playa">
+               <img id="imagen3" src="https://dam.ngenespanol.com/wp-content/uploads/2019/06/montana-perfecta_Matterhorn_.png" alt="foto de montaña">
+            </picture>
+            <div>
+                <div class="rectangle" id="rectangulo1"></div>
+                <div class="rectangle" id="rectangulo2"></div>
+            </div>
+            <div id="ejercicio 4-4">
+                <h3>Ejercicio4</h3>
+                <p>La propiedad object-fit:cover lo que hace es redimensionar la imagen para ajustarse al contendor,que eso se hace con object-fit y con el cover le decimos que redimensione la imagen hasta que cubra el contenedor entero, si la imagen no coincide con el contendor lo que hace es recortar la imagen hasta que se ajuste</p>
+            </div>
+       </section>
+   </main>
+</body>
+</html>

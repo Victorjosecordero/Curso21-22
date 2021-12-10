@@ -1,0 +1,25 @@
+strong{
+    color: darkgoldenrod;
+}
+a{
+    font: optional;
+}
+p:first-letter{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size:xx-large
+}
+
+#formato1{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: solid;
+}
+
+span{
+    text-decoration: underline overline;
+}
+
+.claves{
+    text-transform: uppercase;
+}

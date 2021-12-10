@@ -1,0 +1,35 @@
+body{
+    background-color: deeppink;
+    align-items: center;
+}
+#fondorosa{
+    background-color: darkorchid;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+    text-align: center;
+}
+#menu{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+a:hover{
+    color: #fff;
+
+}
+
+.casosp{
+    font-weight: bolder;
+    font-size: large;
+}
+#menu{
+    width: 350px;
+}
+.casosp:active{
+    color: white;
+}
