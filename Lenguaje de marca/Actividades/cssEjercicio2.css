@@ -26,10 +26,15 @@ a:hover{
 .casosp{
     font-weight: bolder;
     font-size: large;
+
 }
 #menu{
     width: 350px;
 }
-.casosp:active{
-    color: white;
+
+p{
+    font-variant: small-caps;
+}
+p:target{
+    color:white;
 }
