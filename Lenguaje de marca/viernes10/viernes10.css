@@ -12,10 +12,12 @@ th{
     padding: 0 .5em;
     background-image: url(imagenes/200.gif);
     background-size: cover;
+    
 }
 th:hover{
     background-image: url(imagenes/doctor-octopus.gif);
     background-size: cover;
+    
 }
 td{
     padding: 0 .9em;
