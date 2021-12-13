@@ -1,6 +1,5 @@
 body{
     background-color: deeppink;
-    align-items: center;
 }
 #fondorosa{
     background-color: darkorchid;
@@ -11,11 +10,26 @@ h1{
     text-align: center;
 }
 #menu{
-    text-align: center;
-}
-
-li{
     list-style: none;
+    position: relative;
+    display: block;
+    height: 36px;
+}
+#menu li{
+	float: left;
+	display:block;
+	position:relative;
+
+}
+#menu li a{
+
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:14px;
+    line-height:1.3em;
+    padding:10px 14px 8px 16px;
+    display:block;
+    margin-left: 200px;
+    
 }
 
 a:hover{
@@ -28,13 +42,6 @@ a:hover{
     font-size: large;
 
 }
-#menu{
-    width: 350px;
-}
-
-p{
-    font-variant: small-caps;
-}
-p:target{
-    color:white;
+:target{
+    color: white;
 }
