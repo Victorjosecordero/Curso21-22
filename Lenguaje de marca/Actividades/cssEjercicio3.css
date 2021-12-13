@@ -69,3 +69,11 @@ table td:nth-child(3) {
     background-repeat: repeat;
     
 }
+
+#Ejercicio4{
+    border: 2px red solid ;
+    padding: 1em;
+    margin: 1em 0 1em 4em;
+    width: 300px;
+    position: absolute;
+  }

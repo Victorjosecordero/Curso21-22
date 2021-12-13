@@ -5,9 +5,9 @@ a{
     font: optional;
 }
 p:first-letter{
-    text-transform: capitalize;
+   
     font-weight: bolder;
-    font-size:xx-large
+    font-size:xx-large;
 }
 
 #formato1{
