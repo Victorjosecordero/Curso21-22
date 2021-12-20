@@ -1,6 +1,6 @@
 
 #Victor José Peña Cordero
-
+import pprint
 
 def leer():
     lista_palabras = []
@@ -8,13 +8,12 @@ def leer():
         filas = palabras.readlines()
         for f in filas:
             if int(f.find('e')) == int(-1):
-                pass
-            else:
-                lista_palabras.append(f)
+                lista_palabras.append(f[:-1:])
+                
 
 
-    print(lista_palabras)
+    return(lista_palabras)
     
 
-leer()
+pprint.pprint(leer())
 
