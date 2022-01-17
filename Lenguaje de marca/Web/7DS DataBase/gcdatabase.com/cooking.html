@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from gcdatabase.com/cooking by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Dec 2021 17:06:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Cooking</title>
+	<!-- Favicons -->
+	<link href="images/favicon.png" rel="icon">
+	<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+	<!-- Bootstrap core CSS -->
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="css/custom.css" rel="stylesheet">
+	<script data-ad-client="ca-pub-7948401406873175" async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XX1MLEM3JS"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-XX1MLEM3JS');
+	</script>
+</head>
+<body class="darktheme">
+	<!-- Navigation -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="index-2.html">GCDB</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link"style="color: #fcba03" href="fundraising.html">Fundraising</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index-2.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+							Characters
+						</a>
+						<div class="dropdown-menu dropdown-menu-right greytheme" aria-labelledby="navbarDropdownPortfolio">
+							<a class="dropdown-item whitetext" href="characters.html">List</a>
+							<a class="dropdown-item whitetext" href="tierlist.html">Tierlist</a>
+							<a class="dropdown-item whitetext" href="ccranking.html">CC Ranking</a>
+							<a class="dropdown-item whitetext" href="skillfilter.html">Skill Filter</a>
+							<a class="dropdown-item whitetext" href="unique.html">List of Uniques</a>
+							<a class="dropdown-item whitetext" href="association.html">Associations</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gamenews.html">Game News</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">
+							Useful Information
+						</a>
+						<div class="dropdown-menu dropdown-menu-right greytheme" aria-labelledby="navbarDropdownPortfolio">
+							<a class="dropdown-item whitetext" href="cooking.html">Cooking</a>
+							<a class="dropdown-item whitetext" href="gears.html">Gears</a>
+							<a class="dropdown-item whitetext" href="statuseffect.html">Status Effects</a>
+							
+
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="color:#c2c4ff" href="https://sdsgc.gg/">Global &#10132;</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Page Content -->
+	<section id="tabs" class="project-tab mt-4 whitetext">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="m-2">
+						<h2>Cooking</h2>
+						<small>Hover over the ingredients to check on the locations</small>
+					</div>
+					<input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+					<nav class="cooking-nav-visibility">
+						<div class="nav nav-tabs nav-fill cooking-nav" id="nav-tab" role="tablist">
+							<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#town1" role="tab" aria-controls="town1" aria-selected="true">Town 1</a>
+							<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#town2" role="tab" aria-controls="town2" aria-selected="false">Town 2</a>
+							<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#town3" role="tab" aria-controls="town3" aria-selected="false">Town 3</a>
+							<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#town4" role="tab" aria-controls="town4" aria-selected="false">Town 4</a>
+							<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#town5" role="tab" aria-controls="town5" aria-selected="false">Town 5</a>
+							<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#town6" role="tab" aria-controls="town6" aria-selected="false">Town 6</a>
+						</div>
+					</nav>
+					<div class="tab-content" id="nav-tabContent">
+						<div class="tab-pane fade show active" id="town1" role="tabpanel" aria-labelledby="nav-home-tab">
+							<table class="table whitetext" cellspacing="0">
+								<thead>
+									<tr>
+										<th>Food Name</th>
+										<th>Ingredient</th>
+										<th>Effect</th>
+										<th>Character Intimacy</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="images/food/sweet_meat_pie.webp" loading="lazy"><br>Sweet Meat Pie</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/aged_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/sugar.webp" loading="lazy"></a></a><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/laurels.webp" loading="lazy"></a></td>
+										<td>EXP +100%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/diane/1.html"><img src="images/characters/diane/cssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/diane/2.html"><img src="images/characters/diane/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/diane/3.html"><img src="images/characters/diane/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/diane/4.html"><img src="images/characters/diane/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/small_diane/1.html"><img src="images/characters/small_diane/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/small_diane/2.html"><img src="images/characters/small_diane/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/small_diane/3.html"><img src="images/characters/small_diane/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/blessing_of_earth_diane/1.html"><img src="images/characters/blessing_of_earth_diane/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/protective_heart_diane/1.html"><img src="images/characters/protective_heart_diane/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/hawkslo/1.html"><img src="images/characters/hawkslo/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/hawkslo/2.html"><img src="images/characters/hawkslo/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/vegetable_meat_pie.webp" loading="lazy"><br>Vegetable Meat Pie</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/aged_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,4"><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/vegetables.webp" loading="lazy"></a></a><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/laurels.webp" loading="lazy"></a></td>
+										<td>EXP +100%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/slater/1.html"><img src="images/characters/slater/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/slater/2.html"><img src="images/characters/slater/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/slater/3.html"><img src="images/characters/slater/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/milk_meat_pie.webp" loading="lazy"><br>Milk Meat Pie</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/aged_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,4"><a data-toggle="tooltip" data-placement="top" title="Town 2,4"><img src="images/food/milk.webp" loading="lazy"></a></a><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/laurels.webp" loading="lazy"></a></td>
+										<td>EXP +100%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/dreyfus/1.html"><img src="images/characters/dreyfus/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/dreyfus/2.html"><img src="images/characters/dreyfus/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fraudrin/1.html"><img src="images/characters/fraudrin/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fraudrin/2.html"><img src="images/characters/fraudrin/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/chicken_matango_tamagoyaki.webp" loading="lazy"><br>Chicken Matango Tamagoyaki</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/aged_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,6"><img src="images/food/eggs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/sliced_chicken_matango.webp" loading="lazy"></a></td>
+										<td>Attack +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/alioni/1.html"><img src="images/characters/alioni/rg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/chicken_matango_grilled_with_butter.webp" loading="lazy"><br>Chicken Matango Grilled with Butter</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/aged_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,4"><img src="images/food/butter.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/sliced_chicken_matango.webp" loading="lazy"></a></td>
+										<td>Attack +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/helbram/1.html"><img src="images/characters/helbram/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/helbram/2.html"><img src="images/characters/helbram/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/helbram/3.html"><img src="images/characters/helbram/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/human_helbram/1.html"><img src="images/characters/human_helbram/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/honey-roasted_chicken_matango.webp" loading="lazy"><br>Honey-roasted Chicken Matango</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/aged_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/honey.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/sliced_chicken_matango.webp" loading="lazy"></a></td>
+										<td>Attack +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/diane/1.html"><img src="images/characters/diane/cssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/diane/2.html"><img src="images/characters/diane/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/diane/3.html"><img src="images/characters/diane/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/diane/4.html"><img src="images/characters/diane/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/small_diane/1.html"><img src="images/characters/small_diane/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/small_diane/2.html"><img src="images/characters/small_diane/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/small_diane/3.html"><img src="images/characters/small_diane/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/protective_heart_diane/1.html"><img src="images/characters/protective_heart_diane/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/pepper_grilled_beef.webp" loading="lazy"><br>Pepper Grilled Beef</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/aged_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,5"><img src="images/food/pepper.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/truffle.webp" loading="lazy"></a></td>
+										<td>Pierce Rate +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/jericho/1.html"><img src="images/characters/jericho/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/jericho/2.html"><img src="images/characters/jericho/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/jericho/3.html"><img src="images/characters/jericho/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/jericho/4.html"><img src="images/characters/jericho/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a>  <a href="characters/jericho/5.html"><img src="images/characters/jericho/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/dogedo/1.html"><img src="images/characters/dogedo/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/salt_grilled_beef.webp" loading="lazy"><br>Salt Grilled Beef</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/aged_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,5"><img src="images/food/salt.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/truffle.webp" loading="lazy"></a></td>
+										<td>Pierce Rate +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/howzer/1.html"><img src="images/characters/howzer/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/howzer/2.html"><img src="images/characters/howzer/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/howzer/3.html"><img src="images/characters/howzer/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/howzer/4.html"><img src="images/characters/howzer/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/herb_grilled_beef.webp" loading="lazy"><br>Herb Grilled Beef</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/aged_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,5"><img src="images/food/herbs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/truffle.webp" loading="lazy"></a></td>
+										<td>Pierce Rate +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/meliodas/1.html"><img src="images/characters/meliodas/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/meliodas/2.html"><img src="images/characters/meliodas/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/meliodas/3.html"><img src="images/characters/meliodas/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/demon_meliodas/1.html"><img src="images/characters/demon_meliodas/cssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/demon_meliodas/2.html"><img src="images/characters/demon_meliodas/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/demon_meliodas/3.html"><img src="images/characters/demon_meliodas/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/lostvayne_meliodas/1.html"><img src="images/characters/lostvayne_meliodas/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/lostvayne_meliodas/2.html"><img src="images/characters/lostvayne_meliodas/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/assault_mode_meliodas/1.html"><img src="images/characters/assault_mode_meliodas/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/traitor_meliodas/1.html"><img src="images/characters/traitor_meliodas/ssrd_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/estarossa/1.html"><img src="images/characters/estarossa/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/estarossa/2.html"><img src="images/characters/estarossa/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/sigurd/1.html"><img src="images/characters/sigurd/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane fade" id="town2" role="tabpanel" aria-labelledby="nav-profile-tab">
+							<table class="table whitetext" cellspacing="0">
+								<thead>
+									<tr>
+										<th>Food Name</th>
+										<th>Ingredient</th>
+										<th>Effect</th>
+										<th>Character Intimacy</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="images/food/milk_pudding.webp" loading="lazy"><br>Milk Pudding</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/organic_milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,4"><img src="images/food/milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/breath_of_danafort.webp" loading="lazy"></a></td>
+										<td>Gold +100%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/twigo/1.html"><img src="images/characters/twigo/rr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/camila/1.html"><img src="images/characters/camila/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/egg_pudding.webp" loading="lazy"><br>Egg Pudding</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/organic_milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,6"><img src="images/food/eggs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/breath_of_danafort.webp" loading="lazy"></a></td>
+										<td>Gold +100%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/elizabeth/1.html"><img src="images/characters/elizabeth/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth/2.html"><img src="images/characters/elizabeth/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth/3.html"><img src="images/characters/elizabeth/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> </a> <a href="characters/elizabeth/4.html"><img src="images/characters/elizabeth/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth_hawk/1.html"><img src="images/characters/elizabeth_hawk/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth_hawk/2.html"><img src="images/characters/elizabeth_hawk/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth_hawk/3.html"><img src="images/characters/elizabeth_hawk/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth_hawk/4.html"><img src="images/characters/elizabeth_hawk/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/goddess_elizabeth/1.html"><img src="images/characters/goddess_elizabeth/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/ellatte/1.html"><img src="images/characters/ellatte/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/honey_pudding.webp" loading="lazy"><br>Honey Pudding</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/organic_milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/honey.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/breath_of_danafort.webp" loading="lazy"></a></td>
+										<td>Gold +100%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/meliodas/1.html"><img src="images/characters/meliodas/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/meliodas/2.html"><img src="images/characters/meliodas/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/meliodas/3.html"><img src="images/characters/meliodas/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/demon_meliodas/1.html"><img src="images/characters/demon_meliodas/cssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/demon_meliodas/2.html"><img src="images/characters/demon_meliodas/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/demon_meliodas/3.html"><img src="images/characters/demon_meliodas/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/lostvayne_meliodas/1.html"><img src="images/characters/lostvayne_meliodas/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/lostvayne_meliodas/2.html"><img src="images/characters/lostvayne_meliodas/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/assault_mode_meliodas/1.html"><img src="images/characters/assault_mode_meliodas/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/traitor_meliodas/1.html"><img src="images/characters/traitor_meliodas/ssrd_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/brunhild/1.html"><img src="images/characters/brunhild/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/sand_crawler_grilled_with_salt.webp" loading="lazy"><br>Sand Crawler Grilled with Salt</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/organic_milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,5"><img src="images/food/salt.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/asparagus.webp" loading="lazy"></a></td>
+										<td>Defense +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/griamore/1.html"><img src="images/characters/griamore/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/griamore/2.html"><img src="images/characters/griamore/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/griamore/3.html"><img src="images/characters/griamore/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/dogedo/1.html"><img src="images/characters/dogedo/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/sand_crawler_grilled_with_butter.webp" loading="lazy"><br>Sand Crawler Grilled with Butter</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/organic_milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,4"><img src="images/food/butter.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/asparagus.webp" loading="lazy"></a></td>
+										<td>Defense +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/cain/1.html"><img src="images/characters/cain/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/hawk/1.html"><img src="images/characters/hawk/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/hawkslo/1.html"><img src="images/characters/hawkslo/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/sand_crawler_grilled_with_herbs.webp" loading="lazy"><br>Sand Crawler Grilled with Herbs</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/organic_milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,5"><img src="images/food/herbs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/asparagus.webp" loading="lazy"></a></td>
+										<td>Defense +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/merlin/1.html"><img src="images/characters/merlin/cssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/merlin/2.html"><img src="images/characters/merlin/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/merlin/3.html"><img src="images/characters/merlin/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/belialuin_merlin/1.html"><img src="images/characters/belialuin_merlin/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/truthseeker_merlin/1.html"><img src="images/characters/truthseeker_merlin/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/truthseeker_merlin/2.html"><img src="images/characters/truthseeker_merlin/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/bellion/1.html"><img src="images/characters/bellion/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/bread_and_cheese_with_sugar.webp" loading="lazy"><br>Bread and Cheese with Sugar</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/organic_milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/sugar.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/goat_milk.webp" loading="lazy"></a></td>
+										<td>Resistance +30%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/gilthunder/1.html"><img src="images/characters/gilthunder/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gilthunder/2.html"><img src="images/characters/gilthunder/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gilthunder/3.html"><img src="images/characters/gilthunder/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gilthunder/4.html"><img src="images/characters/gilthunder/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/bread_and_cheese_with_pepper.webp" loading="lazy"><br>Bread and Cheese with Pepper</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/organic_milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,5"><img src="images/food/pepper.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/goat_milk.webp" loading="lazy"></a></td>
+										<td>Resistance +30%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/jude/1.html"><img src="images/characters/jude/rr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/zeldris/1.html"><img src="images/characters/zeldris/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/zeldris/2.html"><img src="images/characters/zeldris/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/executioner_zeldris/1.html"><img src="images/characters/executioner_zeldris/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/bread_and_cheese_with_vegetables.webp" loading="lazy"><br>Bread and Cheese with Vegetables</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/organic_milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/vegetables.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2"><img src="images/food/goat_milk.webp" loading="lazy"></a></td>
+										<td>Resistance +30%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/ban/1.html"><img src="images/characters/ban/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/ban/2.html"><img src="images/characters/ban/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/ban/3.html"><img src="images/characters/ban/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/nunchuck_ban/1.html"><img src="images/characters/nunchuck_ban/cssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/nunchuck_ban/2.html"><img src="images/characters/nunchuck_ban/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/nunchuck_ban/3.html"><img src="images/characters/nunchuck_ban/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/purgatory_ban/1.html"><img src="images/characters/purgatory_ban/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/valenti/1.html"><img src="images/characters/valenti/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/valenti/2.html"><img src="images/characters/valenti/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/valenti_of_obsesssion/1.html"><img src="images/characters/valenti_of_obsession/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane fade" id="town3" role="tabpanel" aria-labelledby="nav-contact-tab">
+							<table class="table whitetext" cellspacing="0">
+								<thead>
+									<tr>
+										<th>Food Name</th>
+										<th>Ingredient</th>
+										<th>Effect</th>
+										<th>Character Intimacy</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="images/food/milk_and_strawberry_combo.webp" loading="lazy"><br>Milk and Strawberry Combo</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/organic_vegetables_and_fruits.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,4"><img src="images/food/milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3"><img src="images/food/wild_strawberry.webp" loading="lazy"></a></td>
+										<td>Combat Class (CP) +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/gowther/1.html"><img src="images/characters/gowther/cssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gowther/2.html"><img src="images/characters/gowther/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gowther/3.html"><img src="images/characters/gowther/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gowther/4.html"><img src="images/characters/gowther/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/hijack_gowther/1.html"><img src="images/characters/hijack_gowther/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/deathpierce/1.html"><img src="images/characters/deathpierce/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/butter_and_strawberry_combo.webp" loading="lazy"><br>Butter and Strawberry Combo</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/organic_vegetables_and_fruits.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,4"><img src="images/food/butter.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3"><img src="images/food/wild_strawberry.webp" loading="lazy"></a></td>
+										<td>Combat Class (CP) +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/gustaf/1.html"><img src="images/characters/gustaf/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/eastin/1.html"><img src="images/characters/eastin/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/eastin/2.html"><img src="images/characters/eastin/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/eastin/3.html"><img src="images/characters/eastin/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"> <a href="characters/authority_eastin/1.html"><img src="images/characters/authority_eastin/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/herbs_and_strawberry_combo.webp" loading="lazy"><br>Herbs and Strawberry Combo</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/organic_vegetables_and_fruits.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,5"><img src="images/food/herbs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3"><img src="images/food/wild_strawberry.webp" loading="lazy"></a></td>
+										<td>Combat Class (CP) +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/jericho/1.html"><img src="images/characters/jericho/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/jericho/2.html"><img src="images/characters/jericho/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/jericho/3.html"><img src="images/characters/jericho/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/jericho/4.html"><img src="images/characters/jericho/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/jericho/4.html"><img src="images/characters/jericho/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/jericho/5.html"><img src="images/characters/jericho/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/ellatte/1.html"><img src="images/characters/ellatte/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/raisins_with_pepper.webp" loading="lazy"><br>Raisins with Pepper</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/organic_vegetables_and_fruits.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,5"><img src="images/food/pepper.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3"><img src="images/food/assorted_grapes.webp" loading="lazy"></a></td>
+										<td>HP +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/gowther/1.html"><img src="images/characters/gowther/cssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gowther/2.html"><img src="images/characters/gowther/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gowther/3.html"><img src="images/characters/gowther/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gowther/4.html"><img src="images/characters/gowther/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/hijack_gowther/1.html"><img src="images/characters/hijack_gowther/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/ludociel/1.html"><img src="images/characters/ludociel/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/margaret_ludociel/1.html"><img src="images/characters/margaret_ludociel/ssrb_portrait.html" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/raisins_with_salt.webp" loading="lazy"><br>Raisins with Salt</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/organic_vegetables_and_fruits.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,5"><img src="images/food/salt.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3"><img src="images/food/assorted_grapes.webp" loading="lazy"></a></td>
+										<td>HP +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/ruin/1.html"><img src="images/characters/ruin/rg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/zaneri/1.html"><img src="images/characters/zaneri/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/tarmiel/1.html"><img src="images/characters/tarmiel/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/raisins_with_sugar.webp" loading="lazy"><br>Raisins with Sugar</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/organic_vegetables_and_fruits.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/sugar.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3"><img src="images/food/assorted_grapes.webp" loading="lazy"></a></td>
+										<td>HP +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/merlin/1.html"><img src="images/characters/merlin/cssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/merlin/2.html"><img src="images/characters/merlin/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/merlin/3.html"><img src="images/characters/merlin/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/belialuin_merlin/1.html"><img src="images/characters/belialuin_merlin/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/truthseeker_merlin/1.html"><img src="images/characters/truthseeker_merlin/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/truthseeker_merlin/2.html"><img src="images/characters/truthseeker_merlin/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/escanor/1.html"><img src="images/characters/escanor/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/escanor/2.html"><img src="images/characters/escanor/cssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/theone_escanor/1.html"><img src="images/characters/theone_escanor/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/sariel/1.html"><img src="images/characters/sariel/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/vegetable_salad.webp" loading="lazy"><br>Vegetable Salad</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/organic_vegetables_and_fruits.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/vegetables.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3"><img src="images/food/fairy_sprouts.webp" loading="lazy"></a></td>
+										<td>Regeneration +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/elizabeth/1.html"><img src="images/characters/elizabeth/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth/2.html"><img src="images/characters/elizabeth/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth/3.html"><img src="images/characters/elizabeth/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> </a> <a href="characters/elizabeth/4.html"><img src="images/characters/elizabeth/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth_hawk/1.html"><img src="images/characters/elizabeth_hawk/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth_hawk/2.html"><img src="images/characters/elizabeth_hawk/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth_hawk/3.html"><img src="images/characters/elizabeth_hawk/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elizabeth_hawk/4.html"><img src="images/characters/elizabeth_hawk/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/goddess_elizabeth/1.html"><img src="images/characters/goddess_elizabeth/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gloxinia/1.html"><img src="images/characters/gloxinia/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gloxinia/2.html"><img src="images/characters/gloxinia/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/liz/1.html"><img src="images/characters/liz/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/liz/2.html"><img src="images/characters/liz/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/egg_salad.webp" loading="lazy"><br>Egg Salad</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/organic_vegetables_and_fruits.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,6"><img src="images/food/eggs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3"><img src="images/food/fairy_sprouts.webp" loading="lazy"></a></td>
+										<td>Regeneration +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/helbram/1.html"><img src="images/characters/helbram/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/helbram/2.html"><img src="images/characters/helbram/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/helbram/3.html"><img src="images/characters/helbram/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/human_helbram/1.html"><img src="images/characters/human_helbram/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/deathpierce/1.html"><img src="images/characters/deathpierce/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/deathpierce/1.html"><img src="images/characters/deathpierce/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/honey_salad.webp" loading="lazy"><br>Honey Salad</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 1"><img src="images/food/organic_vegetables_and_fruits.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/honey.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3"><img src="images/food/fairy_sprouts.webp" loading="lazy"></a></td>
+										<td>Regeneration +10%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/king/1.html"><img src="images/characters/king/cssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/king/2.html"><img src="images/characters/king/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/king/3.html"><img src="images/characters/king/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fat_king/1.html"><img src="images/characters/fat_king/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fat_king/2.html"><img src="images/characters/fat_king/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fat_king/3.html"><img src="images/characters/fat_king/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/small_winged_king/1.html"><img src="images/characters/small_winged_king/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fairy_king_harlequin/1.html"><img src="images/characters/fairy_king_harlequin/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/deldry/1.html"><img src="images/characters/deldry/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane fade" id="town4" role="tabpanel" aria-labelledby="nav-contact-tab">
+							<table class="table whitetext" cellspacing="0">
+								<thead>
+									<tr>
+										<th>Food Name</th>
+										<th>Ingredient</th>
+										<th>Effect</th>
+										<th>Character Intimacy</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="images/food/fried_chicken.webp" loading="lazy"><br>Fried Chicken</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/luxury_chicken.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,4"><img src="images/food/milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/teriyaki_sauce.webp" loading="lazy"></a></td>
+										<td>PvP Coins +1000%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/taizoo/1.html"><img src="images/characters/taizoo/rr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/arden/2.html"><img src="images/characters/arden/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/chicken_steak.webp" loading="lazy"><br>Chicken Steak</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/luxury_chicken.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/honey.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/teriyaki_sauce.webp" loading="lazy"></a></td>
+										<td>PvP Coins +1000%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/marmas/1.html"><img src="images/characters/marmas/rb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/denzel/1.html"><img src="images/characters/denzel/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/cusack/1.html"><img src="images/characters/cusack/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/glazed_chicken.webp" loading="lazy"><br>Glazed Chicken</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/luxury_chicken.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,5"><img src="images/food/herbs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/teriyaki_sauce.webp" loading="lazy"></a></td>
+										<td>PvP Coins +1000%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/guila/1.html"><img src="images/characters/guila/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/guila/2.html"><img src="images/characters/guila/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/guila/3.html"><img src="images/characters/guila/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/monspeet/1.html"><img src="images/characters/monspeet/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/monspeet/2.html"><img src="images/characters/monspeet/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/sugar_grilled_chicken_wings.webp" loading="lazy"><br>Sugar Grilled Chicken Wings</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/luxury_chicken.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/sugar.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/mozzarella_cheese.webp" loading="lazy"></a></td>
+										<td>Crit Chance +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/arthur/1.html"><img src="images/characters/arthur/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/arthur/2.html"><img src="images/characters/arthur/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/arthur/3.html"><img src="images/characters/arthur/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/arthur/4.html"><img src="images/characters/arthur/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/arthur/1.html"><img src="images/characters/excalibur_arthur/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/pepper_grilled_chicken_wings.webp" loading="lazy"><br>Pepper Grilled Chicken Wings</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/luxury_chicken.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,5"><img src="images/food/pepper.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/mozzarella_cheese.webp" loading="lazy"></a></td>
+										<td>Crit Chance +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/hugo/1.html"><img src="images/characters/hugo/rg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/derieri/1.html"><img src="images/characters/derieri/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/derieri/2.html"><img src="images/characters/derieri/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/derieri/3.html"><img src="images/characters/derieri/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/salt_grilled_chicken_wings.webp" loading="lazy"><br>Salt Grilled Chicken Wings</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/luxury_chicken.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,5"><img src="images/food/salt.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/mozzarella_cheese.webp" loading="lazy"></a></td>
+										<td>Crit Chance +20%</td>
+										<td><a href="characters/matrona/1.html"><img src="images/characters/matrona/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/matrona/2.html"><img src="images/characters/matrona/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/waillo/1.html"><img src="images/characters/waillo/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/chicken_rice_ball_with_butter.webp" loading="lazy"><br>Chicken Rice Ball with Butter</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/luxury_chicken.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,4"><img src="images/food/butter.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/liones_rice.webp" loading="lazy"></a></td>
+										<td>Crit Damage +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/guila/1.html"><img src="images/characters/guila/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/guila/2.html"><img src="images/characters/guila/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/guila/3.html"><img src="images/characters/guila/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/shin/1.html"><img src="images/characters/shin/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/shin/2.html"><img src="images/characters/shin/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/chicken_veggie_fried_rice.webp" loading="lazy"><br>Chicken Veggie Fried Rice</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/luxury_chicken.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/vegetables.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/liones_rice.webp" loading="lazy"></a></td>
+										<td>Crit Damage +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/weinheidt/1.html"><img src="images/characters/weinheidt/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/chicken_and_egg_risotto.webp" loading="lazy"><br>Chicken and Egg Risotto</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/luxury_chicken.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,6"><img src="images/food/eggs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/liones_rice.webp" loading="lazy"></a></td>
+										<td>Crit Damage +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/gilthunder/1.html"><img src="images/characters/gilthunder/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gilthunder/2.html"><img src="images/characters/gilthunder/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gilthunder/3.html"><img src="images/characters/gilthunder/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gilthunder/4.html"><img src="images/characters/gilthunder/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/monspeet/1.html"><img src="images/characters/monspeet/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane fade" id="town5" role="tabpanel" aria-labelledby="nav-contact-tab">
+							<table class="table whitetext" cellspacing="0">
+								<thead>
+									<tr>
+										<th>Food Name</th>
+										<th>Ingredient</th>
+										<th>Effect</th>
+										<th>Character Intimacy</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="images/food/vegetable_apple_pie.webp" loading="lazy"><br>Vegetable Apple Pie</td>
+										<td> <a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/flour.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/vegetables.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/apples.webp" loading="lazy"></a></td>
+										<td>Ultimate Move Gauge +1</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/king/1.html"><img src="images/characters/king/cssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/king/2.html"><img src="images/characters/king/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/king/3.html"><img src="images/characters/king/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fat_king/1.html"><img src="images/characters/fat_king/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fat_king/2.html"><img src="images/characters/fat_king/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fat_king/3.html"><img src="images/characters/fat_king/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/small_winged_king/1.html"><img src="images/characters/small_winged_king/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fairy_king_harlequin/1.html"><img src="images/characters/fairy_king_harlequin/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/gerharde/1.html"><img src="images/characters/gerharde/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/sweet_apple_pie.webp" loading="lazy"><br>Sweet Apple Pie</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/flour.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/sugar.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/apples.webp" loading="lazy"></a></td>
+										<td>Ultimate Move Gauge +1</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/freesia/1.html"><img src="images/characters/freesia/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/melascula/1.html"><img src="images/characters/melascula/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/melascula/2.html"><img src="images/characters/melascula/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/honey_apple_pie.webp" loading="lazy"><br>Honey Apple Pie</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/flour.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/honey.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/apples.webp" loading="lazy"></a></td>
+										<td>Ultimate Move Gauge +1</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/griamore/1.html"><img src="images/characters/griamore/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/griamore/2.html"><img src="images/characters/griamore/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/griamore/3.html"><img src="images/characters/griamore/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/jenna/1.html"><img src="images/characters/jenna/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/megellda/1.html"><img src="images/characters/megellda/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/herb_ciabatta.webp" loading="lazy"><br>Herb Ciabatta</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/flour.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,5"><img src="images/food/herbs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/dried_fruits.webp" loading="lazy"></a></td>
+										<td>Crit Resistance +30%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/elaine/1.html"><img src="images/characters/elaine/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elaine/2.html"><img src="images/characters/elaine/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elaine/3.html"><img src="images/characters/elaine/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/golden_wings_elaine/1.html"><img src="images/characters/golden_wings_elaine/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/lillia/1.html"><img src="images/characters/lillia/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/lillia/2.html"><img src="images/characters/lillia/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/awakened_lillia/1.html"><img src="images/characters/awakened_lillia/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/awakened_lillia/2.html"><img src="images/characters/awakened_lillia/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/pepper_bread.webp" loading="lazy"><br>Pepper Bread</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/flour.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,5"><img src="images/food/pepper.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/dried_fruits.webp" loading="lazy"></a></td>
+										<td>Crit Resistance +30%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/vivian/1.html"><img src="images/characters/vivian/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/galland/1.html"><img src="images/characters/galland/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/galland/2.html"><img src="images/characters/galland/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/egg_sandwich.webp" loading="lazy"><br>Egg Sandwich</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/flour.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,6"><img src="images/food/eggs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/dried_fruits.webp" loading="lazy"></a></td>
+										<td>Crit Resistance +30%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/howzer/1.html"><img src="images/characters/howzer/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/howzer/2.html"><img src="images/characters/howzer/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/howzer/3.html"><img src="images/characters/howzer/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/howzer/4.html"><img src="images/characters/howzer/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/valenti/1.html"><img src="images/characters/valenti/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/valenti/2.html"><img src="images/characters/valenti/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/valenti_of_obsesssion/1.html"><img src="images/characters/valenti_of_obsession/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/seafood_stew.webp" loading="lazy"><br>Seafood Stew</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/flour.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,4"><img src="images/food/milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/assorted_shellfish.webp" loading="lazy"></a></td>
+										<td>Crit Defense +30%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/ban/1.html"><img src="images/characters/ban/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/ban/2.html"><img src="images/characters/ban/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/ban/3.html"><img src="images/characters/ban/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/nunchuck_ban/1.html"><img src="images/characters/nunchuck_ban/cssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/nunchuck_ban/2.html"><img src="images/characters/nunchuck_ban/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/nunchuck_ban/3.html"><img src="images/characters/nunchuck_ban/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/purgatory_ban/1.html"><img src="images/characters/purgatory_ban/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/chandler/1.html"><img src="images/characters/chandler/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/seafood_pasta.webp" loading="lazy"><br>Seafood Pasta</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/flour.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,4"><img src="images/food/butter.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/assorted_shellfish.webp" loading="lazy"></a></td>
+										<td>Crit Defense +30%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/jillian/1.html"><img src="images/characters/jillian/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/nanashi/1.html"><img src="images/characters/nanashi/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/seafood_pot.webp" loading="lazy"><br>Seafood Pot</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/flour.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,5"><img src="images/food/salt.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 5"><img src="images/food/assorted_shellfish.webp" loading="lazy"></a></td>
+										<td>Crit Defense +30%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/hendrickson/1.html"><img src="images/characters/hendrickson/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/hendrickson/2.html"><img src="images/characters/hendrickson/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/demon_hendrickson/1.html"><img src="images/characters/demon_hendrickson/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/roxy/1.html"><img src="images/characters/roxy/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/roxy/2.html"><img src="images/characters/roxy/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/roxy/3.html"><img src="images/characters/roxy/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="tab-pane fade" id="town6" role="tabpanel" aria-labelledby="nav-contact-tab">
+							<table class="table whitetext" cellspacing="0">
+								<thead>
+									<tr>
+										<th>Food Name</th>
+										<th>Ingredient</th>
+										<th>Effect</th>
+										<th>Character Intimacy</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="images/food/salt_dragon_skewer.webp" loading="lazy"><br>Salt Dragon Skewer</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dried_smoked_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,5"><img src="images/food/salt.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dragon_fruit.webp" loading="lazy"></a></td>
+										<td>Recovery +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/freesia/1.html"><img src="images/characters/freesia/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/estarossa/1.html"><img src="images/characters/estarossa/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/estarossa/2.html"><img src="images/characters/estarossa/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/drole/1.html"><img src="images/characters/drole/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/drole/2.html"><img src="images/characters/drole/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/pepper_dragon_skewer.webp" loading="lazy"><br>Pepper Dragon Skewer</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dried_smoked_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,5"><img src="images/food/pepper.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dragon_fruit.webp" loading="lazy"></a></td>
+										<td>Recovery +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/golgius/1.html"><img src="images/characters/golgius/rb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/bellion/1.html"><img src="images/characters/bellion/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/nanashi/1.html"><img src="images/characters/nanashi/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/thonar/1.html"><img src="images/characters/thonar/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/butter_dragon_skewer.webp" loading="lazy"><br>Butter Dragon Skewer</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dried_smoked_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 4"><img src="images/food/vegetables.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dragon_fruit.webp" loading="lazy"></a></td>
+										<td>Recovery +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/dreyfus/1.html"><img src="images/characters/dreyfus/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/dreyfus/2.html"><img src="images/characters/dreyfus/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fraudrin/1.html"><img src="images/characters/fraudrin/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/mono/1.html"><img src="images/characters/mono/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/mono/2.html"><img src="images/characters/mono/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/mono/3.html"><img src="images/characters/mono/ssrg_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/fraudrin/2.html"><img src="images/characters/fraudrin/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/milk_caviar_canape.webp" loading="lazy"><br>Milk Caviar Canape</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dried_smoked_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,4"><img src="images/food/milk.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/caviar.webp" loading="lazy"></a></td>
+										<td>Lifesteal +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/arthur/1.html"><img src="images/characters/arthur/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/arthur/2.html"><img src="images/characters/arthur/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/arthur/4.html"><img src="images/characters/arthur/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/arthur/1.html"><img src="images/characters/excalibur_arthur/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/escanor/1.html"><img src="images/characters/escanor/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/escanor/2.html"><img src="images/characters/escanor/cssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/theone_escanor/1.html"><img src="images/characters/theone_escanor/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/sugar_caviar_canape.webp" loading="lazy"><br>Sugar Caviar Canape</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dried_smoked_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/sugar.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/caviar.webp" loading="lazy"></a></td>
+										<td>Lifesteal +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/gustaf/1.html"><img src="images/characters/gustaf/srg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/melascula/1.html"><img src="images/characters/melascula/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/honey_caviar_canape.webp" loading="lazy"><br>Honey Caviar Canape</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dried_smoked_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 3,6"><img src="images/food/honey.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/caviar.webp" loading="lazy"></a></td>
+										<td>Lifesteal +20%</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/vivian/1.html"><img src="images/characters/vivian/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/galland/1.html"><img src="images/characters/galland/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/egg_and_chips.webp" loading="lazy"><br>Egg and Chips</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dried_smoked_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 2,6"><img src="images/food/eggs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/potato.webp" loading="lazy"></a></td>
+										<td>Evade +1</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/elaine/1.html"><img src="images/characters/elaine/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elaine/2.html"><img src="images/characters/elaine/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/elaine/3.html"><img src="images/characters/elaine/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/golden_wings_elaine/1.html"><img src="images/characters/golden_wings_elaine/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/lillia/1.html"><img src="images/characters/lillia/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/lillia/2.html"><img src="images/characters/lillia/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/awakened_lillia/1.html"><img src="images/characters/awakened_lillia/ssrr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/awakened_lillia/2.html"><img src="images/characters/awakened_lillia/ssrb_portrait.png" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/fish_and_chips.webp" loading="lazy"><br>Fish and Chips</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dried_smoked_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,4"><img src="images/food/butter.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/potato.webp" loading="lazy"></a></td>
+										<td>Evade +1</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/simon/1.html"><img src="images/characters/simon/rr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/zaratras/1.html"><img src="images/characters/zaratras/ssrg_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+									<tr>
+										<td><img src="images/food/steak_and_chips.webp" loading="lazy"><br>Steak and Chips</td>
+										<td><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/dried_smoked_meat.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 1,4"><img src="images/food/herbs.webp" loading="lazy"></a><a data-toggle="tooltip" data-placement="top" title="Town 6"><img src="images/food/potato.webp" loading="lazy"></a></td>
+										<td>Evade +1</td>
+										<td><div class="d-flex justify-content-center"><a href="characters/slater/1.html"><img src="images/characters/slater/ssrb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/slater/2.html"><img src="images/characters/slater/srr_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/slater/3.html"><img src="images/characters/slater/ssrr_portrait.png" style="width:50px;height:50px;" loading="lazy"></a> <a href="characters/waillo/1.html"><img src="images/characters/waillo/srb_portrait.webp" style="width:50px;height:50px;" loading="lazy"></a></div></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div>
+						<h2>Food in Knighthood Shop</h2>
+						<div class="table-responsive mb-2">
+							<table class="table table-dark table-striped table-bordered mb-0">
+								<tbody>
+									<tr>
+										<td>Double Red Demon Horns Drop</td>
+										<td><img src="images/food/strawberry_parfait.webp" loading="lazy"></td>
+									</tr>
+									<tr>
+										<td>Double Gray Demon Wings Drop</td>
+										<td><img src="images/food/choco_parfait.webp" loading="lazy"></td>
+									</tr>
+									<tr>
+										<td>Double Howlex/Crimson Ears Drop</td>
+										<td><img src="images/food/mango_parfait.webp" loading="lazy"></td>
+									</tr>
+								</tbody>
+							</table>
+							<h2 class="mt-2">Food in PVP Shop</h2>
+							<div class="table-responsive mb-2">
+								<table class="table table-dark table-striped table-bordered mb-0">
+									<tbody>
+										<tr>
+											<td>Does not lose PVP points after PVP lost</td>
+											<td><img src="images/food/pvp_tea.webp" loading="lazy"></td>
+										</tr>
+										<tr>
+											<td>Triples PVP points after PVP win</td>
+											<td><img src="images/food/pvp_wine.webp" loading="lazy"></td>
+										</tr>
+										<tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- /.row -->
+				<!-- /.Container -->
+				<!-- Footer -->
+				<footer class="py-1 bg-dark">
+					<p class="m-0 text-center text-white">GCDatabase is not affliated with or endorsed by Netmarble | <a href="https://www.paypal.me/gcdatabase" style="color: #ff5500" target="_blank">Donations</a> | <a href="specialthanks.html" style="color: #fcba03" target="_blank">Special Thanks</a></p>
+				</footer>
+				<!-- Bootstrap core JavaScript -->
+				<script src="lib/jquery/jquery.min.js"></script>
+				<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+				<script>
+					$(document).ready(function(){
+						$('[data-toggle="tooltip"]').tooltip();
+					});
+				</script>
+			</body>
+			
+<!-- Mirrored from gcdatabase.com/cooking by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Dec 2021 17:06:28 GMT -->
+</html>

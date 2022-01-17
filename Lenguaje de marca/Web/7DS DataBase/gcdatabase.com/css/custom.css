@@ -1,0 +1,365 @@
+.darktheme{
+  background: #1a1b1f;
+}
+
+.whitetext{
+  color: white;
+}
+
+th[colspan="3"] {
+  text-align: center;
+}
+
+.greytheme{
+  background-color: #28292b;
+}
+
+.titlebox{
+
+}
+
+html, body{
+ height:100%;
+  margin:0;
+}
+
+body {
+  padding-top: 56px;
+  display:flex; 
+  flex-direction:column; 
+}
+
+.anchor{
+   padding-top:50px;
+}
+
+footer{
+  margin-top:auto; 
+}
+
+.divider{
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
+
+.carousel-item {
+  height: 50vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav-link {
+  display: block;
+}
+
+.links {
+  margin-bottom: 30px;
+}
+
+.py-1 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.dropdown:hover>.dropdown-menu {
+  margin-top:  0;
+  display: block;
+}
+
+th, td, tr {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.skillresize{
+  max-width:100%;
+  max-height:100%;
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  color:grey;
+  text-decoration: none;
+}
+
+#chartable td{
+  padding:0;
+}
+
+#chartable th{
+  padding:0.5rem;
+}
+
+.object-fit-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*magic*/
+}
+
+.responsive {
+  max-width:100%;
+  max-height:100%;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gc-btn{
+  /* color:#DDD; */
+  border-radius: 0px;
+}
+.btn {
+  margin-bottom: 10px !important;
+}
+.gc-sm-btn{
+  padding: 2px 4px !important;
+  color: rgb(233, 233, 233);
+  background: rgb(55, 55, 55);
+  border-radius: 2px !important;
+}
+
+.gc-sm-btn:hover {
+  background: rgb(101, 45, 45);
+}
+
+.gc-sm-btn > .btn-secondary.dropdown-toggle {
+  background: chartreuse !important;
+}
+
+.gc-btn-non{
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+.gc-btn-bg{
+  background:#666
+}
+.gc-disable{
+  pointer-events: none;
+  cursor: not-allowed;
+  color: darkgrey;
+}
+
+.gc-disable2 {
+  cursor: not-allowed;
+}
+
+.gc-disable2 * {
+  pointer-events: none;
+  color: #414141!important;
+}
+.gc-btn-header{
+  font-size: 12px;
+  font-weight:700;
+  vertical-align: text-bottom;
+  padding:0px;
+  /* margin:auto; */
+  padding-top:5px;
+  padding-bottom:5px;
+  color:#FFFFFFff;
+  text-align: center;
+  background: #11111199;
+  border-radius: 0px;
+  text-shadow: 2px 2px 2px #00000022,0px 0px 5px #00000077;
+  /* box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.4); */
+}
+.skill-header{
+  color: #FFF;
+  margin-bottom: 50px;
+}
+
+.skill-row{
+  margin-bottom: 20px;
+}
+/*Filter table*/
+
+.chars2-wrap {
+  float: left;
+  width: 30%;
+  margin: 0 5% 0 0;
+  padding: 0;
+}
+
+.chars-wrap {
+  float: left;
+  width: 30%;
+  margin: 0 5% 0 0;
+  padding: 0;
+  position: relative;
+}
+
+.chars-list {
+  float: left;
+  width: 15%;
+}
+
+.chars-list-wrap {
+  float: left;
+  width: 15%;
+}
+
+.chars-list div {
+  float: left;
+  width: 100%;
+  height: 68px;
+  line-height: 65px;
+  padding: 0 5%;
+  margin: 0 0 1px;
+  position: relative;
+}
+
+.chars-list-wrap div {
+  float: left;
+  width: 100%;
+  height: 68px;
+  line-height: 65px;
+  padding: 0 5%;
+  margin: 0 0 1px;
+  position: relative;
+}
+
+p {
+  color: #fff;
+}
+
+.effect-col {
+  padding-right: 120px;
+}
+
+.char-row {
+  align-content: center;
+  margin:auto;
+  margin-bottom: 50px;
+}
+
+.char-portrait {
+  width:100px; 
+  height:100px;
+}
+
+@media (max-width: 767px) {
+  .visible-sm {
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  .hidden-stats {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  } 
+}
+
+@media (max-width: 768px){
+  .cooking-nav {
+    display: grid;
+  }
+  .burger {
+    display: block;
+    border: 0;
+    background: none;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid currentColor;
+    width: 28px;
+    transition: border-bottom 1s ease-in-out;
+    -webkit-transition: border-bottom 1s ease-in-out;
+  }
+  .burger::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  .burger:before {
+    content: "";
+    display: block;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  .burger:after {
+    content: "";
+    display: block;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  
+  .burger-check {
+    display: none;
+  }
+  
+  .burger-check:checked ~ .burger {
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 0.8s ease-in-out;
+    -webkit-transition: border-bottom 0.8s ease-in-out;
+  }
+  .burger-check:checked ~ .burger:before {
+    transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  .burger-check:checked ~ .burger:after {
+    transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  
+  .cooking-nav-visibility{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+  .burger-check:checked ~ .cooking-nav-visibility {
+    max-height: 500px;
+    display: grid;
+    transition: max-height 0.5s ease-in-out;
+  }
+}
+
+.burger-check {
+  display: none;
+}
+
+.accordion-button {
+  background-color: #4c4c4d;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #4c4c4d;
+}
+
+.accordion-body {
+  background-color: #28292b;
+}

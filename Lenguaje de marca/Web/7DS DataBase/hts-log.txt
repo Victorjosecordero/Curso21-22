@@ -1,0 +1,35 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 31 Dec 2021 18:03:59 at https://gcdatabase.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "es, en, *" https://gcdatabase.com -O1 "C:\Users\avpen\Desktop\Database 7DS\7DS DataBase" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:13:03	Error: 	"Not Found" (404) at link https://gcdatabase.com/images/characters/authority_eastin/ssrb_portrait.webp (from https://gcdatabase.com/association)
+18:13:03	Error: 	"Not Found" (404) at link https://gcdatabase.com/images/characters/eleven/ssrr_portrait.png (from https://gcdatabase.com/association)
+18:13:03	Error: 	"Not Found" (404) at link https://gcdatabase.com/images/characters/sigurd/ssrr_portrait.webp (from https://gcdatabase.com/association)
+18:13:03	Error: 	"Not Found" (404) at link https://gcdatabase.com/characters/valenti_of_obsesssion/1 (from https://gcdatabase.com/cooking)
+18:13:03	Error: 	"Not Found" (404) at link https://gcdatabase.com/images/characters/margaret_ludociel/ssrb_portrait.webp (from https://gcdatabase.com/cooking)
+18:13:03	Error: 	"Not Found" (404) at link https://gcdatabase.com/characters/arden/2 (from https://gcdatabase.com/cooking)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/characters/grayroad/npc (from https://gcdatabase.com/statuseffect)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/images/characters/grayroad/npc_portrait.webp (from https://gcdatabase.com/statuseffect)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/images/characters/deldry/srb_portrait.webp (from https://gcdatabase.com/characters/arden/1)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/images/characters/blessing_of_earth_diane/ssrg_portrait.webp (from https://gcdatabase.com/characters/blessing_of_earth_diane/1)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/images/characters/blessing_of_earth_diane/ssrg_passive.webp (from https://gcdatabase.com/characters/blessing_of_earth_diane/1)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/characters/will_of_protection_diane/1 (from https://gcdatabase.com/characters/drole/1)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/images/characters/will_of_protection_diane/ssrg_portrait.png (from https://gcdatabase.com/characters/drole/1)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/characters/githunder/1 (from https://gcdatabase.com/characters/elizabeth_hawk/1)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/characters/githunder/2 (from https://gcdatabase.com/characters/elizabeth_hawk/1)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/characters/githunder/3 (from https://gcdatabase.com/characters/elizabeth_hawk/1)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/characters/cooking (from https://gcdatabase.com/characters/estarossa/1)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/nametranslation (from https://gcdatabase.com/characters/merlin/3)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/images/gift/Slater.webp (from https://gcdatabase.com/characters/slater/1)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/characters/tierlist (from https://gcdatabase.com/characters/slater/2)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/characters/ccranking (from https://gcdatabase.com/characters/slater/2)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/teams (from https://gcdatabase.com/boss/aynek)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/guide (from https://gcdatabase.com/boss/aynek)
+18:13:45	Error: 	"Not Found" (404) at link https://gcdatabase.com/boss/gamenews (from https://gcdatabase.com/boss/gray)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 47 seconds : 1954 links scanned, 1929 files written (74666972 bytes overall) [69444981 bytes received at 118304 bytes/sec], 9284137 bytes transferred using HTTP compression in 263 files, ratio 17%, 50.1 requests per connection
+(24 errors, 0 warnings, 0 messages)

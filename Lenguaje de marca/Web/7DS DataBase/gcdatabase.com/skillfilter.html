@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from gcdatabase.com/skillfilter by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Dec 2021 17:05:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Skill Effect Filter</title>
+		<!-- Favicons -->
+		<link href="images/favicon.png" rel="icon">
+		<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+		<!-- Bootstrap core CSS -->
+		<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="css/custom.css" rel="stylesheet">
+		<script data-ad-client="ca-pub-7948401406873175" async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XX1MLEM3JS"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-XX1MLEM3JS');
+	</script>
+	</head>
+	<body class="darktheme">
+		<!-- Navigation -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="index-2.html">GCDB</a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index-2.html">Home</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">
+								Characters
+							</a>
+							<div class="dropdown-menu dropdown-menu-right greytheme" aria-labelledby="navbarDropdownPortfolio">
+								<a class="dropdown-item whitetext" href="characters.html">List</a>
+								<a class="dropdown-item whitetext" href="tierlist.html">Tierlist</a>
+<a class="dropdown-item whitetext" href="ccranking.html">CC Ranking</a>
+								
+								<a class="dropdown-item whitetext" href="skillfilter.html">Skill Filter</a>
+								<a class="dropdown-item whitetext" href="unique.html">List of Uniques</a>
+								<a class="dropdown-item whitetext" href="association.html">Associations</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="gamenews.html">Game News</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+								Useful Information
+							</a>
+							<div class="dropdown-menu dropdown-menu-right greytheme" aria-labelledby="navbarDropdownPortfolio">
+								<a class="dropdown-item whitetext" href="cooking.html">Cooking</a>
+								<a class="dropdown-item whitetext" href="gears.html">Gears</a>
+								<a class="dropdown-item whitetext" href="statuseffect.html">Status Effects</a>
+								
+								
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" style="color:#c2c4ff" href="https://sdsgc.gg/">Global &#10132;</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Page Content -->
+		<div style="padding-bottom: 50px;"></div>
+		<div class="container">
+			<h3 class="skill-header">Filter by Skill Effects (excluding passives)</h3>
+			<div class="row skill-row">
+				<div class="col-2 col-sm-2 effect-col">
+					<p>
+						<b>Stats Increases</b>
+					</p>
+				</div>
+				<div class="col-10 col-sm-10">
+					<div class="btn-group-toggle" data-toggle="buttons">
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="inc_atk" id="inc_atk" /> Increases Attack
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="inc_atk_rel" id="inc_atk_rel" /> Increases Attack-related stats
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="inc_def" id="inc_def" /> Increases Defense
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="inc_def_rel" id="inc_def_rel" /> Increases Defense-related stats
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="inc_hp_rel" id="inc_hp_rel" /> Increases HP stats
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="inc_max_hp" id="inc_max_hp" /> Increases Max HP
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="inc_base" id="inc_base" /> Increases Basic Stats
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="row skill-row">
+				<div class="col-2 col-sm-2 effect-col">
+					<p>
+						<b>Stats Decreases</b>
+					</p>
+				</div>
+				<div class="col-10 col-sm-10">
+					<div class="btn-group-toggle" data-toggle="buttons">
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="dec_atk" id="dec_atk" /> Decreases Attack
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="dec_atk_rel" id="dec_atk_rel" /> Decreases Attack-related stats
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="dec_crit" id="dec_crit" /> Decreases Crit Chance stats
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="dec_crit_def" id="dec_crit_def" /> Decreases Crit Defense-related stats
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="dec_def" id="dec_def" /> Decreases Defense
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="dec_def_rel" id="dec_def_rel" /> Decreases Defense-related stats
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="dec_hp" id="dec_hp" /> Decreases HP
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="dec_hp_rel" id="dec_hp_rel" /> Decreases HP-related stats
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="row skill-row">
+				<div class="col-2 col-sm-2 effect-col">
+					<p>
+						<b>Damage-Related</b>
+					</p>
+				</div>
+				<div class="col-10 col-sm-10">
+					<div class="btn-group-toggle" data-toggle="buttons">
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="inc_dmg" id="inc_dmg" /> Increases damage dealt
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="dec_dmg" id="dec_dmg" /> Decreases damage taken
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="dec_ult_dmg" id="dec_ult_dmg" /> Decreases Ultimate Move damage
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="row skill-row">
+				<div class="col-2 col-sm-2 effect-col">
+					<p>
+						<b>Skill Ranks</b>
+					</p>
+				</div>
+				<div class="col-10 col-sm-10">
+					<div class="btn-group-toggle" data-toggle="buttons">
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="rank_up" id="rank_up" /> Increases Skill Ranks
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="rank_down" id="rank_down" /> Decreases Skill Ranks
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="row skill-row">
+				<div class="col-2 col-sm-2 effect-col">
+					<p>
+						<b>Ultimate Gauge</b>
+					</p>
+				</div>
+				<div class="col-10 col-sm-10">
+					<div class="btn-group-toggle" data-toggle="buttons">
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="inc_ult_gauge" id="inc_skill_type" /> Increases Ultimate Move Gauge
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="red_ult_gauge" id="red_ult_gauge" /> Decreases Ultimate Move Gauge
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="disable_ult_gauge" id="disable_ult_gauge" /> Disables Ultimate Move Gauge
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="row skill-row">
+				<div class="col-2 col-sm-2 effect-col">
+					<p>
+						<b>Heal/Removal</b>
+					</p>
+				</div>
+				<div class="col-10 col-sm-10">
+					<div class="btn-group-toggle" data-toggle="buttons">
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="cleanse" id="cleanse" /> Cleanse/Remove Debuffs
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="hp_rec" id="hp_rec" /> HP Recovery
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="buff_rem" id="buff_rem" /> Remove Buff(s)
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="stance_rem" id="stance_rem" /> Remove Stance(s)
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="row skill-row">
+				<div class="col-2 col-sm-2 effect-col">
+					<p>
+						<b>Immunity</b>
+					</p>
+				</div>
+				<div class="col-10 col-sm-10">
+					<div class="btn-group-toggle" data-toggle="buttons">
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="debuff_imm" id="debuff_imm" /> Debuff Immunity
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="petrify_imm" id="petrify_imm" /> Petrify Immunity
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="stun_imm" id="stun_imm" />Stun Immunity
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="row skill-row">
+				<div class="col-2 col-sm-2 effect-col">
+					<p>
+						<b>Disabling Effects</b>
+					</p>
+				</div>
+				<div class="col-10 col-sm-10">
+					<div class="btn-group-toggle" data-toggle="buttons">
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="atk_disable" id="atk_disable" /> Disable Attack Skills
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="buff_disable" id="buff_disable" /> Disable Buff Skills
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="debuff_disable" id="debuff_disable" /> Disable Debuff Skills
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="stance_disable" id="stance_disable" /> Disable Stance Skills
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="heal_disable" id="heal_disable" /> Disable Healing Skills
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="ult_disable" id="ult_disable" /> Disable Ultimate Moves
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="skill_rank_disable" id="skill_rank_disable" /> Disable Skill Ranks
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="disable_ult_gauge" id="disable_ult_gauge" /> Ult Gauge Disable
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="disable_skill_effect" id="disable_skill_effect" /> Disable Skill Effects
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="ult_eff_disable" id="ult_eff_disable" /> Restrict Ultimate Move Effect
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="row skill-row">
+				<div class="col-2 col-sm-2 effect-col">
+					<p>
+						<b>Effects/Statuses</b>
+					</p>
+				</div>
+				<div class="col-10 col-sm-10">
+					<div class="btn-group-toggle" data-toggle="buttons">
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="abyss" id="abyss" /> Abyss
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="amplify" id="amplify" /> Amplify
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="bleed" id="bleed" /> Bleed
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="charge" id="charge" /> Charge
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="corrosion" id="corrosion" /> Corrosion
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="cleave" id="cleave" /> Cleave
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="break" id="break" /> Break
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="codestruction" id="codestruction" /> Co-destruction
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="counter" id="counter" /> Counter
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="crush" id="crush" /> Crush
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="death" id="death" /> Death
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="delete" id="delete" /> Delete
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="despair" id="despair" /> Despair
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="detonate" id="detonate" /> Detonate
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="explosion" id="expel" /> Expel
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="explosion" id="explosion" /> Explosion
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="extort" id="extort" /> Extort
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="evade" id="evade" /> Evade
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="freeze" id="freeze" /> Freeze
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="ignite" id="ignite" /> Ignite
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="infect" id="infect" /> Infect
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="flood" id="flood" /> Flood
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="inhale" id="inhale" /> Inhale
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="lifesteal" id="lifesteal" /> Lifesteal
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="nullify" id="nullify" /> Nullify
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="oxidize" id="oxidize" /> Oxidize
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="petrify" id="petrify" /> Petrify
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="pierce" id="pierce" /> Pierce
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="poison" id="poison" /> Poison
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="power_strike" id="power_strike" /> Power Strike
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="prem_strike" id="prem_strike" /> Preemptive Strike
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="recovery" id="self_rec" /> Recovery
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="reflect" id="reflect" /> Reflect
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="rejuvenate" id="rejuvenate" /> Rejuvenate
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="ruin" id="ruin" /> Ruin
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="rupture" id="rupture" /> Rupture
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="scorch" id="scorch" /> Scorch
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="sever" id="sever" /> Sever
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="secret_technique" id="secret_technique" /> Secret Technique
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="shatter" id="shatter" /> Shatter
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="shield" id="shield" /> Shield
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="shock" id="shock" /> Shock
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="solidify" id="solidify" /> Solidify
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="spike" id="spike" /> Spike
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="stun" id="stun" /> Stun
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="taunt" id="taunt" /> Taunt
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="transform" id="transform" /> Transform
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="wave" id="wave" /> Wave
+						</label>
+						<label class="btn btn-sm btn-secondary gc-sm-btn">
+							<input type="checkbox" name="skill_type" value="weakness" id="weakness" /> Weak Point
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End Container-->
+		<section id="tabs" class="project-tab mt-4 whitetext">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3>Character Results</h3>
+					<pre id=result> </pre>
+					<div class="row char-row">
+						<div class="char" style="text-align: center;" data-id="alioni_rg" data-category="taunt shatter stance_rem">
+							<a href="characters/alioni/1.html">
+								<img src="images/characters/alioni/rg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="arden_srb" data-category="poison break dec_hp_rel">
+							<a href="characters/arden/1.html">
+								<img src="images/characters/arden/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="arthur_ssrr" data-category="heal_disable cleanse debuff_imm inc_base sever">
+							<a href="characters/arthur/1.html">
+								<img src="images/characters/arthur/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="arthur_srb" data-category="detonate heal_disable dec_def_rel">
+							<a href="characters/arthur/2.html">
+								<img src="images/characters/arthur/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="arthur_ssrb" data-category="stance_rem stun atk_disable sever">
+							<a href="characters/arthur/3.html">
+								<img src="images/characters/arthur/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="arthur_ssrg" data-category="buff_rem buff_disable debuff_disable sever">
+							<a href="characters/arthur/4.html">
+								<img src="images/characters/arthur/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="excalibur_arthur_ssrr" data-category="charge taunt dec_dmg red_ult_gauge detonate">
+							<a href="characters/excalibur_arthur/1.html">
+								<img src="images/characters/excalibur_arthur/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="athena_ssrg" data-category="stance_rem stun detonate">
+							<a href="characters/athena/1.html">
+								<img src="images/characters/athena/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="ban_ssrg" data-category="lifesteal extort red_ult_gauge">
+							<a href="characters/ban/1.html">
+								<img src="images/characters/ban/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="ban_ssrb" data-category="charge dec_atk_rel red_ult_gauge">
+							<a href="characters/ban/2.html">
+								<img src="images/characters/ban/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="ban_srr" data-category="red_ult_gauge recovery debuff_imm evade">
+							<a href="characters/ban/3.html">
+								<img src="images/characters/ban/srr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="ban_cssrg" data-category="lifesteal extort">
+							<a href="characters/nunchuck_ban/1.html">
+								<img src="images/characters/nunchuck_ban/cssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="ban_ssrr" data-category="weakness rank_down red_ult_gauge extort">
+							<a href="characters/nunchuck_ban/2.html">
+								<img src="images/characters/nunchuck_ban/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="ban_ssrb" data-category="stance_rem dec_def_rel extort">
+							<a href="characters/nunchuck_ban/3.html">
+								<img src="images/characters/nunchuck_ban/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="purgatory_ban_ssrr" data-category="detonate hp_rec inc_max_hp rupture">
+							<a href="characters/purgatory_ban/1.html">
+								<img src="images/characters/purgatory_ban/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="beatrice_ssrb" data-category="lifesteal despair">
+							<a href="characters/beatrice/1.html">
+								<img src="images/characters/beatrice/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="bellion_ssrb" data-category="shatter red_ult_gauge">
+							<a href="characters/bellion/1.html">
+								<img src="images/characters/bellion/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="benimaru_ssrr" data-category="weakness dec_def_rel rank_down red_ult_gauge">
+							<a href="characters/benimaru/1.html">
+								<img src="images/characters/benimaru/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="brunhild_ssrg" data-category="detonate power_strike hp_rec">
+							<a href="characters/brunhild/1.html">
+								<img src="images/characters/brunhild/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="cain_srg" data-category="ignite buff_rem weakness">
+							<a href="characters/cain/1.html">
+								<img src="images/characters/cain/srg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="camila_ssrr" data-category="stance_rem stun lifesteal charge spike transform cleanse buff_rem dec_hp">
+							<a href="characters/camila/1.html">
+								<img src="images/characters/camila/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="chandler_ssrb" data-category="disable_skill_effect ult_eff_disable taunt charge">
+							<a href="characters/chandler/1.html">
+								<img src="images/characters/chandler/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="cusack_ssrb" data-category="cleave red_ult_gauge power_strike abyss">
+							<a href="characters/cusack/1.html">
+								<img src="images/characters/cusack/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="deldry_ssrr" data-category="spike taunt inc_hp_rel disable_ult_gauge">
+							<a href="characters/deldry/1.html">
+								<img src="images/characters/deldry/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="denzel_ssrr" data-category="lifesteal corrosion">
+							<a href="characters/denzel/1.html">
+								<img src="images/characters/denzel/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="derieri_ssrr" data-category="inc_base evade amplify">
+							<a href="characters/derieri/1.html">
+								<img src="images/characters/derieri/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="derieri_ssrg" data-category="red_ult_gauge inc_ult_gauge amplify">
+							<a href="characters/derieri/2.html">
+								<img src="images/characters/derieri/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="derieri_ssrb" data-category="buff_rem stance_rem taunt inc_def_rel stun_imm amplify">
+							<a href="characters/derieri/3.html">
+								<img src="images/characters/derieri/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="diane_cssrb" data-category="atk_disable rupture">
+							<a href="characters/diane/1.html">
+								<img src="images/characters/diane/cssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="diane_srr" data-category="stance_rem stance_disable dec_def_rel pierce">
+							<a href="characters/diane/2.html">
+								<img src="images/characters/diane/srr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="diane_ssrg" data-category="stance_rem">
+							<a href="characters/diane/3.html">
+								<img src="images/characters/diane/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="diane_ssrr" data-category="ult_disable skill_rank_disable">
+							<a href="characters/diane/4.html">
+								<img src="images/characters/diane/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="small_diane_ssrr" data-category="shatter dec_def_rel atk_disable pierce">
+							<a href="characters/small_diane/1.html">
+								<img src="images/characters/small_diane/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="small_diane_ssrb" data-category="rupture buff_disable debuff_disable buff_rem pierce">
+							<a href="characters/small_diane/2.html">
+								<img src="images/characters/small_diane/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="small_diane_ssrg" data-category="sever taunt inc_def_rel pierce">
+							<a href="characters/small_diane/3.html">
+								<img src="images/characters/small_diane/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="blessing_of_earth_diane_ssrg" data-category="inc_ult_gauge atk_disable inc_dmg">
+							<a href="characters/blessing_of_earth_diane/1.html">
+								<img src="images/characters/blessing_of_earth_diane/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="protective_heart_diane_ssrg" data-category="charge atk_disable sever">
+							<a href="characters/protective_heart_diane/1.html">
+								<img src="images/characters/protective_heart_diane/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="deathpierce_ssrg" data-category="buff_disable debuff_disable buff_rem shatter dec_atk_rel">
+							<a href="characters/deathpierce/1.html">
+								<img src="images/characters/deathpierce/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="dogedo_srr" data-category="disable_ult_gauge ruin buff_rem stance_rem stun">
+							<a href="characters/dogedo/1.html">
+								<img src="images/characters/dogedo/srr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="dreyfus_srg" data-category="buff_rem stance_rem buff_disable debuff_disable spike">
+							<a href="characters/dreyfus/1.html">
+								<img src="images/characters/dreyfus/srg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="dreyfus_srr" data-category="dec_atk_rel infect spike">
+							<a href="characters/dreyfus/2.html">
+								<img src="images/characters/dreyfus/srr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="drole_ssrg" data-category="detonate buff_disable debuff_disable charge">
+							<a href="characters/drole/1.html">
+								<img src="images/characters/drole/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="drole_ssrb" data-category="petrify taunt inc_hp_rel petrify_imm charge">
+							<a href="characters/drole/2.html">
+								<img src="images/characters/drole/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="eastin_ssrb" data-category="inc_ult_gauge inc_atk_rel spike">
+							<a href="characters/eastin/1.html">
+								<img src="images/characters/eastin/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="eastin_ssrg" data-category="weakness heal_disable disable_ult_gauge dec_atk spike">
+							<a href="characters/eastin/2.html">
+								<img src="images/characters/eastin/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="eastin_ssrr" data-category="red_ult_gauge cleanse debuff_imm inc_def_rel spike">
+							<a href="characters/eastin/3.html">
+								<img src="images/characters/eastin/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="authority_eastin_ssrr" data-category="red_ult_gauge oxidize flood">
+							<a href="characters/authority_eastin/1.html">
+								<img src="images/characters/authority_eastin/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elaine_ssrg" data-category="rank_down red_ult_gauge buff_rem stance_rem stun">
+							<a href="characters/elaine/1.html">
+								<img src="images/characters/elaine/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elaine_ssrb" data-category="dec_atk_rel inc_atk buff_rem stance_rem stun">
+							<a href="characters/elaine/2.html">
+								<img src="images/characters/elaine/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elaine_ssrr" data-category="inc_ult_gauge dec_def_rel buff_rem stance_rem stun">
+							<a href="characters/elaine/3.html">
+								<img src="images/characters/elaine/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="golden_wings_elaine_ssrr" data-category="codestruction corrosion release">
+							<a href="characters/golden_wings_elaine/1.html">
+								<img src="images/characters/golden_wings_elaine/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="eleven_ssrb" data-category="power_strike wave hp_rec">
+							<a href="characters/eleven/1.html">
+								<img src="images/characters/eleven/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elizabeth_srr" data-category="atk_disable hp_rec inc_ult_gauge rejuvenate">
+							<a href="characters/elizabeth/1.html">
+								<img src="images/characters/elizabeth/srr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elizabeth_ssrg" data-category="buff_rem cleanse hp_rec inc_ult_gauge">
+							<a href="characters/elizabeth/2.html">
+								<img src="images/characters/elizabeth/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elizabeth_ssrb" data-category="debuff_disable cleanse hp_rec debuff_imm inc_ult_gauge">
+							<a href="characters/elizabeth/3.html">
+								<img src="images/characters/elizabeth/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elizabeth_ssrr" data-category="hp_rec cleanse inc_def_rel debuff_imm inc_ult_gauge">
+							<a href="characters/elizabeth/4.html">
+								<img src="images/characters/elizabeth/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elizabeth_hawk_srr" data-category="charge buff_disable debuff_disable buff_rem stance_rem">
+							<a href="characters/elizabeth_hawk/1.html">
+								<img src="images/characters/elizabeth_hawk/srr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elizabeth_hawk_srg" data-category="dec_def_rel pierce stance_rem">
+							<a href="characters/elizabeth_hawk/2.html">
+								<img src="images/characters/elizabeth_hawk/srg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elizabeth_hawk_ssrb" data-category="amplify solidify cleanse charge">
+							<a href="characters/elizabeth_hawk/3.html">
+								<img src="images/characters/elizabeth_hawk/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="elizabeth_hawk_ssrb" data-category="rank_down red_ult_gauge dec_atk_rel charge">
+							<a href="characters/elizabeth_hawk/4.html">
+								<img src="images/characters/elizabeth_hawk/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="goddess_elizabeth_ssrb" data-category="stun shield hp_rec reflect">
+							<a href="characters/goddess_elizabeth/1.html">
+								<img src="images/characters/goddess_elizabeth/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="ellatte_ssrr" data-category="detonate def_crit_def cleanse debuff_imm inc_def_rel">
+							<a href="characters/ellatte/1.html">
+								<img src="images/characters/ellatte/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="emilia_ssrb" data-category="freeze red_ult_gauge secret_technique">
+							<a href="characters/emilia/1.html">
+								<img src="images/characters/emilia/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="eren_srb" data-category="stance_rem inc_base evade shatter">
+							<a href="characters/eren/1.html">
+								<img src="images/characters/eren/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="eren_ssrg" data-category="inc_ult_gauge ult_disable transform inc_atk_rel inc_def_rel inc_hp_rel dec_atk_rel amplify red_ult_gauge">
+							<a href="characters/eren/2.html">
+								<img src="images/characters/eren/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="escanor_ssrg" data-category="inc_ult_gauge ignite buff_rem">
+							<a href="characters/escanor/1.html">
+								<img src="images/characters/escanor/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="escanor_cssrr" data-category="amplify red_ult_gauge">
+							<a href="characters/escanor/2.html">
+								<img src="images/characters/escanor/cssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="theone_escanor_ssrb" data-category="flood death">
+							<a href="characters/theone_escanor/1.html">
+								<img src="images/characters/theone_escanor/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="estarossa_ssrr" data-category="heal_disable codestruction prem_strike">
+							<a href="characters/estarossa/1.html">
+								<img src="images/characters/estarossa/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="estarossa_ssrg" data-category="charge counter taunt prem_strike">
+							<a href="characters/estarossa/2.html">
+								<img src="images/characters/estarossa/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="fraudrin_ssrg" data-category="extort buff_rem stance_rem red_ult_gauge">
+							<a href="characters/fraudrin/1.html">
+								<img src="images/characters/fraudrin/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="fraudrin_ssrb" data-category="shatter taunt reflect red_ult_gauge">
+							<a href="characters/fraudrin/2.html">
+								<img src="images/characters/fraudrin/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="freesia_srb" data-category="poison inc_dmg corrosion">
+							<a href="characters/freesia/1.html">
+								<img src="images/characters/freesia/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="galland_ssrb" data-category="amplify bleed inc_base">
+							<a href="characters/galland/1.html">
+								<img src="images/characters/galland/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="galland_ssrr" data-category="shatter buff_rem stance_rem inc_base">
+							<a href="characters/galland/2.html">
+								<img src="images/characters/galland/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gerharde_ssrg" data-category="stance_rem hp_rec inc_ult_gauge buff_rem">
+							<a href="characters/gerharde/1.html">
+								<img src="images/characters/gerharde/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gilthunder_ssrr" data-category="shock taunt dec_dmg rupture">
+							<a href="characters/gilthunder/1.html">
+								<img src="images/characters/gilthunder/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gilthunder_srg" data-category="rupture inc_atk shock">
+							<a href="characters/gilthunder/2.html">
+								<img src="images/characters/gilthunder/srg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gilthunder_srb" data-category="spike shock">
+							<a href="characters/gilthunder/3.html">
+								<img src="images/characters/gilthunder/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gilthunder_ssrb" data-category="stance_rem detonate rupture">
+							<a href="characters/gilthunder/4.html">
+								<img src="images/characters/gilthunder/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gloxinia_ssrg" data-category="bleed atk_disable ruin">
+							<a href="characters/gloxinia/1.html">
+								<img src="images/characters/gloxinia/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gloxinia_ssrr" data-category="skill_rank_disable cleanse recovery debuff_imm ruin">
+							<a href="characters/gloxinia/2.html">
+								<img src="images/characters/gloxinia/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="golgius_rb" data-category="spike weakness poison">
+							<a href="characters/golgius/1.html">
+								<img src="images/characters/golgius/rb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gowther_cssrr" data-category="atk_disable rank_up inc_base red_ult_gauge">
+							<a href="characters/gowther/1.html">
+								<img src="images/characters/gowther/cssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gowther_ssrb" data-category="weakness debuff_disable buff_disable stance_disable heal_disable dec_atk">
+							<a href="characters/gowther/2.html">
+								<img src="images/characters/gowther/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gowther_srg" data-category="rank_down red_ult_gauge dec_ult_dmg ult_eff_disable">
+							<a href="characters/gowther/3.html">
+								<img src="images/characters/gowther/srg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gowther_ssrg" data-category="red_ult_gauge rank_up inc_base">
+							<a href="characters/gowther/4.html">
+								<img src="images/characters/gowther/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="hijack_gowther_ssrg" data-category="crush red_ult_gauge ult_disable buff_disable atk_disable heal_disable rank_down delete">
+							<a href="characters/hijack_gowther/1.html">
+								<img src="images/characters/hijack_gowther/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="griamore_srr" data-category="shield dec_atk_rel">
+							<a href="characters/griamore/1.html">
+								<img src="images/characters/griamore/srr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="griamore_ssrg" data-category="stance_rem stance_disable inc_hp_rel inc_dmg inc_def_rel taunt">
+							<a href="characters/griamore/2.html">
+								<img src="images/characters/griamore/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="griamore_srb" data-category="shatter taunt dec_dmg dec_atk_rel">
+							<a href="characters/griamore/3.html">
+								<img src="images/characters/griamore/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="guila_ssrr" data-category="buff_rem stance_rem ignite spike">
+							<a href="characters/guila/1.html">
+								<img src="images/characters/guila/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="guila_srb" data-category="ignite cleanse hp_rec stance_rem">
+							<a href="characters/guila/2.html">
+								<img src="images/characters/guila/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="guila_ssrg" data-category="charge dec_def_rel spike">
+							<a href="characters/guila/3.html">
+								<img src="images/characters/guila/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="gustaf_srg" data-category="heal_disable freeze spike">
+							<a href="characters/gustaf/1.html">
+								<img src="images/characters/gustaf/srg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="hawk_ssrg" data-category="pierce explosion dec_hp_rel">
+							<a href="characters/hawk/1.html">
+								<img src="images/characters/hawk/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="hawkslo_ssrr" data-category="dec_atk red_ult_gauge expel">
+							<a href="characters/hawkslo/1.html">
+								<img src="images/characters/hawkslo/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="hawkslo_ssrb" data-category="bleed corrosion expel">
+							<a href="characters/hawkslo/2.html">
+								<img src="images/characters/hawkslo/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="helbram_ssrg" data-category="poison inc_atk_rel buff_rem stance_rem">
+							<a href="characters/helbram/1.html">
+								<img src="images/characters/helbram/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="helbram_ssrr" data-category="red_ult_gauge petrify buff_rem stance_rem">
+							<a href="characters/helbram/2.html">
+								<img src="images/characters/helbram/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="helbram_ssrb" data-category="lifesteal cleanse hp_rec debuff_imm buff_rem stance_rem">
+							<a href="characters/helbram/3.html">
+								<img src="images/characters/helbram/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="human_helbram_ssrb" data-category="poison cleanse debuff_imm inc_base freeze">
+							<a href="characters/human_helbram/1.html">
+								<img src="images/characters/human_helbram/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="hendrickson_ssrb" data-category="lifesteal ignite">
+							<a href="characters/hendrickson/1.html">
+								<img src="images/characters/hendrickson/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="hendrickson_srg" data-category="buff_rem stance_rem hp_rec rejuvenate rupture">
+							<a href="characters/hendrickson/2.html">
+								<img src="images/characters/hendrickson/srg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="demon_hendrickson_ssrg" data-category="shock bleed weakness">
+							<a href="characters/demon_hendrickson/1.html">
+								<img src="images/characters/demon_hendrickson/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="howzer_ssrr" data-category="pierce sever rank_down red_ult_gauge">
+							<a href="characters/howzer/1.html">
+								<img src="images/characters/howzer/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="howzer_srb" data-category="dec_def_rel dec_hp heal_disable">
+							<a href="characters/howzer/2.html">
+								<img src="images/characters/howzer/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="howzer_srg" data-category="stance_rem counter heal_disable">
+							<a href="characters/howzer/3.html">
+								<img src="images/characters/howzer/srg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="howzer_ssrb" data-category="red_ult_gauge detonate rank_down">
+							<a href="characters/howzer/4.html">
+								<img src="images/characters/howzer/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="hugo_rg" data-category="rupture weakness">
+							<a href="characters/hugo/1.html">
+								<img src="images/characters/hugo/rg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="jericho_ssrg" data-category="weakness bleed spike">
+							<a href="characters/jericho/1.html">
+								<img src="images/characters/jericho/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="jericho_srb" data-category="sever hp_rec bleed">
+							<a href="characters/jericho/2.html">
+								<img src="images/characters/jericho/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="jericho_srr" data-category="bleed rupture">
+							<a href="characters/jericho/3.html">
+								<img src="images/characters/jericho/srr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="jericho_ssrb" data-category="explosion dec_hp_rel spike">
+							<a href="characters/jericho/4.html">
+								<img src="images/characters/jericho/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="jericho_ssrr" data-category="freeze detonate spike">
+							<a href="characters/jericho/5.html">
+								<img src="images/characters/jericho/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="jenna_ssrb" data-category="infect stance_rem break">
+							<a href="characters/jenna/1.html">
+								<img src="images/characters/jenna/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="jillian_srg" data-category="pierce stance_rem stance_disable">
+							<a href="characters/jillian/1.html">
+								<img src="images/characters/jillian/srg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="jim_ssrr" data-category="red_ult_gauge stance_rem stun weakness">
+							<a href="characters/jim/1.html">
+								<img src="images/characters/jim/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="king_cssrb" data-category="petrify cleanse hp_rec shatter">
+							<a href="characters/king/1.html">
+								<img src="images/characters/king/cssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="king_ssrg" data-category="spike ruin shatter">
+							<a href="characters/king/2.html">
+								<img src="images/characters/king/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="king_ssrr" data-category="heal_disable explosion shatter">
+							<a href="characters/king/3.html">
+								<img src="images/characters/king/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="fat_king_ssrg" data-category="charge poison dec_def_rel">
+							<a href="characters/fat_king/1.html">
+								<img src="images/characters/fat_king/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="fat_king_ssrb" data-category="bleed counter dec_def_rel">
+							<a href="characters/fat_king/2.html">
+								<img src="images/characters/fat_king/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="fat_king_ssrr" data-category="inc_ult_gauge hp_rec rejuvenate dec_def_rel">
+							<a href="characters/fat_king/3.html">
+								<img src="images/characters/fat_king/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="small_winged_king_ssrb" data-category="release poison abyss dec_dmg">
+							<a href="characters/small_winged_king/1.html">
+								<img src="images/characters/small_winged_king/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="fairy_king_harlequin_ssrb" data-category="power_strike sever buff_rem cleanse inc_dmg">
+							<a href="characters/fairy_king_harlequin/1.html">
+								<img src="images/characters/fairy_king_harlequin/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="kyo_ssrr" data-category="codestruction scorch ignite">
+							<a href="characters/kyo/1.html">
+								<img src="images/characters/kyo/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="levi_ssrr" data-category="spike despair buff_rem stance_rem">
+							<a href="characters/levi/1.html">
+								<img src="images/characters/levi/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="lillia_ssrg" data-category="dec_atk_rel inc_dmg rank_down red_ult_gauge">
+							<a href="characters/lillia/1.html">
+								<img src="images/characters/lillia/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="lillia_ssrb" data-category="red_ult_gauge hp_rec cleanse rank_down">
+							<a href="characters/lillia/2.html">
+								<img src="images/characters/lillia/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="awakened_lillia_ssrr" data-category="hp_rec red_ult_gauge buff_rem">
+							<a href="characters/awakened_lillia/1.html">
+								<img src="images/characters/awakened_lillia/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="awakened_lillia_ssrb" data-category="flood red_ult_gauge buff_rem">
+							<a href="characters/awakened_lillia/2.html">
+								<img src="images/characters/awakened_lillia/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="liz_ssrg" data-category="inc_ult_gauge rank_down red_ult_gauge shatter">
+							<a href="characters/liz/1.html">
+								<img src="images/characters/liz/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="liz_ssrr" data-category="shatter">
+							<a href="characters/liz/2.html">
+								<img src="images/characters/liz/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="ludociel_ssrb" data-category="rupture shield">
+							<a href="characters/ludociel/1.html">
+								<img src="images/characters/ludociel/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="margaret_ludociel_ssrb" data-category="charge cleanse inc_dmg dec_dmg sever disable_skill_effect ult_eff_disable dec_ult_dmg">
+							<a href="characters/margaret_ludociel/1.html">
+								<img src="images/characters/margaret_ludociel/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="mai_ssrb" data-category="red_ult_gauge amplify rank_up">
+							<a href="characters/mai/1.html">
+								<img src="images/characters/mai/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="marmas_rb" data-category="buff_disable debuff_disable dec_def dec_def_rel">
+							<a href="characters/marmas/1.html">
+								<img src="images/characters/marmas/rb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="matrona_ssrb" data-category="atk_disable buff_rem stance_rem rank_down red_ult_gauge">
+							<a href="characters/matrona/1.html">
+								<img src="images/characters/matrona/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="matrona_ssrr" data-category="buff_rem stance_rem taunt inc_def_rel rank_down red_ult_gauge">
+							<a href="characters/matrona/2.html">
+								<img src="images/characters/matrona/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="melascula_ssrb" data-category="infect detonate lifesteal">
+							<a href="characters/melascula/1.html">
+								<img src="images/characters/melascula/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="melascula_ssrr" data-category="scorch inhale lifesteal">
+							<a href="characters/melascula/2.html">
+								<img src="images/characters/melascula/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="meliodas_ssrg" data-category="counter buff_rem stance_rem stun">
+							<a href="characters/meliodas/1.html">
+								<img src="images/characters/meliodas/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="meliodas_srb" data-category="weakness counter dec_dmg evade sever">
+							<a href="characters/meliodas/2.html">
+								<img src="images/characters/meliodas/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="meliodas_ssrr" data-category="poison spike buff_rem stance_rem stun">
+							<a href="characters/meliodas/3.html">
+								<img src="images/characters/meliodas/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="demon_meliodas_cssrr" data-category="ignite infect weakness">
+							<a href="characters/demon_meliodas/1.html">
+								<img src="images/characters/demon_meliodas/cssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="demon_meliodas_ssrb" data-category="pierce corrosion weakness">
+							<a href="characters/demon_meliodas/2.html">
+								<img src="images/characters/demon_meliodas/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="demon_meliodas_ssrg" data-category="disable_ult_gauge infect weakness">
+							<a href="characters/demon_meliodas/3.html">
+								<img src="images/characters/demon_meliodas/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="lostvayne_meliodas_ssrr" data-category="inc_ult_gauge charge secret_technique">
+							<a href="characters/lostvayne_meliodas/1.html">
+								<img src="images/characters/lostvayne_meliodas/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="lostvayne_meliodas_ssrb" data-category="red_ult_gauge dec_atk_rel secret_technique">
+							<a href="characters/lostvayne_meliodas/2.html">
+								<img src="images/characters/lostvayne_meliodas/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="assault_mode_meliodas_ssrg" data-category="rupture amplify inc_base">
+							<a href="characters/assault_mode_meliodas/1.html">
+								<img src="images/characters/assault_mode_meliodas/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="traitor_meliodas_ssrd" data-category="amplify pierce buff_rem stance_rem cleave">
+							<a href="characters/traitor_meliodas/1.html">
+								<img src="images/characters/traitor_meliodas/ssrd_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="merlin_cssrg" data-category="red_ult_gauge shield atk_disable">
+							<a href="characters/merlin/1.html">
+								<img src="images/characters/merlin/cssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="merlin_ssrr" data-category="heal_disable freeze atk_disable">
+							<a href="characters/merlin/2.html">
+								<img src="images/characters/merlin/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="merlin_ssrb" data-category="buff_disable debuff_disable heal_disable stance_disable rank_down red_ult_gauge atk_disable">
+							<a href="characters/merlin/3.html">
+								<img src="images/characters/merlin/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="belialuin_merlin_ssrg" data-category="power_strike infect shield">
+							<a href="characters/belialuin_merlin/1.html">
+								<img src="images/characters/belialuin_merlin/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="truthseeker_merlin_ssrb" data-category="flood red_ult_gauge dec_hp_rel">
+							<a href="characters/truthseeker_merlin/1.html">
+								<img src="images/characters/truthseeker_merlin/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="mikasa_ssrb" data-category="bleed secret_technique inc_base">
+							<a href="characters/mikasa/1.html">
+								<img src="images/characters/mikasa/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="mike_ssrr" data-category="infect inc_ult_gauge buff_rem stance_rem stun">
+							<a href="characters/mike/1.html">
+								<img src="images/characters/mike/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="milim_ssrb" data-category="spike ult_disable detonate">
+							<a href="characters/milim/1.html">
+								<img src="images/characters/milim/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="mono_ssrr" data-category="sever poison bleed">
+							<a href="characters/mono/1.html">
+								<img src="images/characters/mono/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="mono_ssrb" data-category="buff_rem stance_rem disable_ult_gauge bleed">
+							<a href="characters/mono/2.html">
+								<img src="images/characters/mono/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="mono_ssrg" data-category="spike sever bleed">
+							<a href="characters/mono/3.html">
+								<img src="images/characters/mono/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="monspeet_ssrr" data-category="inc_ult_gauge weakness stance_rem ignite">
+							<a href="characters/monspeet/1.html">
+								<img src="images/characters/monspeet/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="monspeet_ssrg" data-category="weakness red_ult_gauge delete ignite">
+							<a href="characters/monspeet/2.html">
+								<img src="images/characters/monspeet/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="nanashi_ssrb" data-category="red_ult_gauge delete despair amplify">
+							<a href="characters/nanashi/1.html">
+								<img src="images/characters/nanashi/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="ram_ssrg" data-category="stance_rem stun rupture dec_atk_rel">
+							<a href="characters/ram/1.html">
+								<img src="images/characters/ram/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="rem_ssrr" data-category="amplify dec_ult_dmg ult_eff_disable shatter">
+							<a href="characters/rem/1.html">
+								<img src="images/characters/rem/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="slimuru_srg" data-category="buff_rem hp_rec debuff_imm red_ult_gauge">
+							<a href="characters/slimuru/1.html">
+								<img src="images/characters/slimuru/srg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="rimuru_ssrb" data-category="rupture debuff_imm taunt recovery buff_rem stance_rem stun">
+							<a href="characters/rimuru/1.html">
+								<img src="images/characters/rimuru/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="roxy_ssrr" data-category="explosion buff_rem stance_rem inc_ult_gauge">
+							<a href="characters/roxy/1.html">
+								<img src="images/characters/roxy/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="roxy_ssrg" data-category="stance_rem charge inc_ult_gauge">
+							<a href="characters/roxy/1.html">
+								<img src="images/characters/roxy/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="roxy_ssrb" data-category="inc_ult_gauge atk_disable">
+							<a href="characters/roxy/3.html">
+								<img src="images/characters/roxy/ssrb_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="ruin_rg" data-category="buff_rem stance_rem dec_atk_rel stun">
+							<a href="characters/ruin/1.html">
+								<img src="images/characters/ruin/rg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="rugal_ssrg" data-category="pierce dec_atk_rel charge">
+							<a href="characters/rugal/1.html">
+								<img src="images/characters/rugal/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="sariel_ssrr" data-category="sever power_strike">
+							<a href="characters/sariel/1.html">
+								<img src="images/characters/sariel/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="shin_ssrg" data-category="weakness dec_ult_dmg shatter">
+							<a href="characters/shin/1.html">
+								<img src="images/characters/shin/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="shin_ssrr" data-category="spike skill_rank_disable shatter">
+							<a href="characters/shin/2.html">
+								<img src="images/characters/shin/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="sigurd_ssrr" data-category="extort amplify flood">
+							<a href="characters/sigurd/1.html">
+								<img src="images/characters/sigurd/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="simon_rr" data-category="sever shatter pierce">
+							<a href="characters/simon/1.html">
+								<img src="images/characters/simon/rr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="slater_ssrb" data-category="sever stance_rem stance_disable infect">
+							<a href="characters/slater/1.html">
+								<img src="images/characters/slater/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="slater_srr" data-category="lifesteal debuff_disable buff_disable stance_disable heal_disable dec_atk">
+							<a href="characters/slater/2.html">
+								<img src="images/characters/slater/srr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="slater_ssrr" data-category="disable_skill_effect ult_eff_disable debuff_disable buff_disable stance_disable heal_disable dec_atk">
+							<a href="characters/slater/3.html">
+								<img src="images/characters/slater/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="taizoo_rr" data-category="pierce inc_def reflect charge">
+							<a href="characters/taizoo/1.html">
+								<img src="images/characters/taizoo/rr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="tarmiel_ssrb" data-category="red_ult_gauge hp_rec dec_dmg">
+							<a href="characters/tarmiel/1.html">
+								<img src="images/characters/tarmiel/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="terry_ssrr" data-category="red_ult_gauge inc_dmg counter power_strike">
+							<a href="characters/terry/1.html">
+								<img src="images/characters/terry/ssrr_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="thonar_ssrg" data-category="bleed charge weakness">
+							<a href="characters/thonar/1.html">
+								<img src="images/characters/thonar/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="twigo_rr" data-category="spike">
+							<a href="characters/twigo/1.html">
+								<img src="images/characters/twigo/rr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="valenti_ssrg" data-category="dec_def_rel dec_atk_rel rupture">
+							<a href="characters/valenti/1.html">
+								<img src="images/characters/valenti/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="valenti_ssrg" data-category="detonate disable_ult_gauge rupture">
+							<a href="characters/valenti/2.html">
+								<img src="images/characters/valenti/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="valenti_of_obsession_ssrg" data-category="sever nullify inc_dmg dec_dmg">
+							<a href="characters/valenti_of_obsession/1.html">
+								<img src="images/characters/valenti_of_obsession/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="vivian_srr" data-category="ignite stance_rem ult_disable shatter">
+							<a href="characters/vivian/1.html">
+								<img src="images/characters/vivian/srr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="waillo_srb" data-category="dec_crit cleanse solidify ult_disable">
+							<a href="characters/waillo/1.html">
+								<img src="images/characters/waillo/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="weinheidt_srb" data-category="atk_disable stance_rem stance_disable pierce">
+							<a href="characters/weinheidt/1.html">
+								<img src="images/characters/weinheidt/srb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="will_ssrg" data-category="disable_ult_gauge flood sever">
+							<a href="characters/will/1.html">
+								<img src="images/characters/will/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="yagami_ssrg" data-category="codestruction infect red_ult_gauge">
+							<a href="characters/yagami/1.html">
+								<img src="images/characters/yagami/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="zaneri_ssrg" data-category="disable_ult_gauge cleanse hp_rec HP-related shield">
+							<a href="characters/zaneri/1.html">
+								<img src="images/characters/zaneri/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="zaratras_ssrg" data-category="shatter charge">
+							<a href="characters/zaratras/1.html">
+								<img src="images/characters/zaratras/ssrg_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="zeldris_ssrb" data-category="spike despair">
+							<a href="characters/zeldris/1.html">
+								<img src="images/characters/zeldris/ssrb_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="zeldris_ssrr" data-category="red_ult_gauge heal_disable spike">
+							<a href="characters/zeldris/2.html">
+								<img src="images/characters/zeldris/ssrr_portrait.webp" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+						<div class="char" style="text-align: center;" data-id="executioner_zeldris_ssrg" data-category="cleave red_ult_gauge ult_disable dec_hp_rel">
+							<a href="characters/executioner_zeldris/1.html">
+								<img src="images/characters/executioner_zeldris/ssrg_portrait.png" class="char-portrait" loading="lazy">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="py-1 bg-dark">
+		<p class="m-0 text-center text-white">GCDatabase is not affliated with or endorsed by Netmarble |
+			<a href="https://www.paypal.me/gcdatabase" style="color: #ff5500" target="_blank">Donations</a> |
+			<a href="specialthanks.html" style="color: #fcba03" target="_blank">Special Thanks</a>
+		</p>
+	</footer>
+	<!-- Bootstrap core JavaScript -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+	<script type="text/javascript">
+		var $filterCheckboxes = $('input[type="checkbox"]');
+		$filterCheckboxes.on('change', function () {
+			var selectedFilters = {};
+			$filterCheckboxes.filter(':checked').each(function () {
+				if (!selectedFilters.hasOwnProperty(this.name)) {
+					selectedFilters[this.name] = [];
+				}
+				selectedFilters[this.name].push(this.value);
+			});
+				// create a collection containing all of the filterable elements
+				var $filteredResults = $('.char');
+				// loop over the selected filter name -> (array) values pairs
+				$.each(selectedFilters, function (name, filterValues) {
+					// filter each .char element
+					$filteredResults = $filteredResults.filter(function () {
+						var matched = false,
+						currentFilterValues = $(this).data('category').split(' ');
+						// loop over each category value in the current .char's data-category
+						$.each(currentFilterValues, function (_, currentFilterValue) {
+							// if the current category exists in the selected filters array
+							// set matched to true, and stop looping. as we're ORing in each
+							// set of filters, we only need to match once
+							if ($.inArray(currentFilterValue, filterValues) != -1) {
+								matched = true;
+								return false;
+							}
+						});
+						// if matched is true the current .char element is returned
+						return matched;
+					});
+				});
+				$('.char').hide().filter($filteredResults).show();
+			});
+	</script>
+</body>
+
+<!-- Mirrored from gcdatabase.com/skillfilter by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Dec 2021 17:05:57 GMT -->
+</html>
