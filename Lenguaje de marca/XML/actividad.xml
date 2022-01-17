@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>Agencia EFE | www.efe.com | Edición España</title>
+    <link>https://www.efe.com</link>
+    <description>Últimas noticias de la Agencia Efe. Fehaciente, fidedigno y fácil. La información con EFE. Edición España.</description>
+    <language>es-ES</language>
+    <copyright>© Agencia EFE, S.A.Avd. de Burgos, 8-B. 28036 Madrid. España Tel: +34 91 346 7100. Todos los derechos reservados</copyright>
+        <item>
+        <title>Nadia de Santiago: “Es importante cambiar la palabra olvidar por superar"</title>
+        <link> https://www.efe.com/efe/espana/cultura/nadia-de-santiago-es-importante-cambiar-la-palabra-olvidar-por-superar/10005-4718145</link>
+        <description>Noticia de preguntas sobre la cocreadora y actriz de "El tiempo que te doy",Nadia de Santiago,</description>
+    </item>
+    <item>
+        <title>Los precios elevan el "estrés" en toda la cadena de producción alimentaria</title>
+        <link>https://www.efe.com/efe/espana/economia/los-precios-elevan-el-estres-en-toda-la-cadena-de-produccion-alimentaria/10003-4718114</link>
+        <description>Noticia sobre a subida de los precios de los alimentos que estrechan los márgenes y eleva el estrés en toda la cadena de producción</description>
+    </item>
+    </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+    <title>Vertical Garden Design | Specialists in vertical greenery</title>
+    <link>https://www.verticalgardendesign.com</link>
+    <description>Noticias sobre el medio ambiente</description>
+    <language>en</language>
+    <item>
+        <title>VERTICAL GARDEN</title>
+        <link>https://www.verticalgardendesign.com/products/vertical-garden</link>
+        <descripcion>As one of the pioneering companies in vertical gardening we have the expertise to deliver solutions that lasts on any scale. We assist clients with every step from planning to design, installation and maintenance. Our background in landscape architecture guarantees a professional planting design with benefits of low maintenance, plant diversity and year around natural beauty.</descripcion>
+    </item>
+    <item>
+        <title>PINNACLE</title>
+        <link>https://www.verticalgardendesign.com/products/pinnacle</link>
+        <descripcion>Pinnacle is a plant sculpture and freestanding vertical garden with plants on all sides. It can be individually shaped to create a unique landscape silhouette or a monolith.</descripcion>
+    </item>
+    <item>
+        <title>CANOPY</title>
+        <link>https://www.verticalgardendesign.com/products/canopy</link>
+        <descripcion>Canopy is a suspended garden for making plant ceilings. Cascading plants hang down several meters and are irrigated automatically.</descripcion>
+    </item>
+    </channel>
+</rss>

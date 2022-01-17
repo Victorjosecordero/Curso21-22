@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JrKygHd_Eey3_tP5anOdqg" type="PapyrusUMLClassDiagram" name="Holaclases" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_stuWUHd_Eey3_tP5anOdqg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_st6jkHd_Eey3_tP5anOdqg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_st6jkXd_Eey3_tP5anOdqg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_st6jknd_Eey3_tP5anOdqg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_st8YwHd_Eey3_tP5anOdqg" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_NGygoHeGEey3_tP5anOdqg" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Hola%20Mundo.uml#_NGZfEHeGEey3_tP5anOdqg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NGygoXeGEey3_tP5anOdqg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_st8YwXd_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_st8Ywnd_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_st8Yw3d_Eey3_tP5anOdqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_st8YxHd_Eey3_tP5anOdqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_st8YxXd_Eey3_tP5anOdqg" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_st8Yxnd_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_st8Yx3d_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_st8YyHd_Eey3_tP5anOdqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_st8YyXd_Eey3_tP5anOdqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_st8Yynd_Eey3_tP5anOdqg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_st8Yy3d_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_st8YzHd_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_st8YzXd_Eey3_tP5anOdqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_st8Yznd_Eey3_tP5anOdqg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Hola%20Mundo.uml#_stgT4Hd_Eey3_tP5anOdqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_stuWUXd_Eey3_tP5anOdqg" x="80" y="140" width="203" height="203"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_thmDQHd_Eey3_tP5anOdqg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_thmqUHd_Eey3_tP5anOdqg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_thmqUXd_Eey3_tP5anOdqg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_thmqUnd_Eey3_tP5anOdqg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_thmqU3d_Eey3_tP5anOdqg" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_thmqVHd_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_thmqVXd_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_thmqVnd_Eey3_tP5anOdqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_thmqV3d_Eey3_tP5anOdqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_thmqWHd_Eey3_tP5anOdqg" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_thmqWXd_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_thmqWnd_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_thmqW3d_Eey3_tP5anOdqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_thmqXHd_Eey3_tP5anOdqg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_thmqXXd_Eey3_tP5anOdqg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_thmqXnd_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_thmqX3d_Eey3_tP5anOdqg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_thmqYHd_Eey3_tP5anOdqg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_thmqYXd_Eey3_tP5anOdqg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Hola%20Mundo.uml#_thk1IHd_Eey3_tP5anOdqg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_thmDQXd_Eey3_tP5anOdqg" x="420" y="140" width="341" height="301"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_JrKygXd_Eey3_tP5anOdqg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_JrKygnd_Eey3_tP5anOdqg"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_JrKyg3d_Eey3_tP5anOdqg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="Hola%20Mundo.uml#_LLLpMHd-Eey3_tP5anOdqg"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Hola%20Mundo.uml#_LLLpMHd-Eey3_tP5anOdqg"/>
+</notation:Diagram>
