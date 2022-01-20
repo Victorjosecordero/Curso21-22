@@ -26,7 +26,6 @@
 # print(f'Hombres: {h}')
 # print(f'Mujeres: {m}')
 
-from mmap import MADV_REMOVE
 import pprint
 import csv
 
