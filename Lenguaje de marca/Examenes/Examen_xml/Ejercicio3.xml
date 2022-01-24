@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="UTF-8"?><!--Debemos decir que es xml la version,el encoding-->
+<rss version="2.0"><!--Tenemos que poner la etiqueta rss con la versión-->
+    <channel><!--Ponemos la etiqueta channel-->
+        <title>Agencia EFE | www.efe.com | Edición España</title><!--y ponemos la etiquetas title,link y descripcion que son obligatorias,yo he puesto unas de ejemplo-->
+        <link>https://www.efe.com</link>
+        <description>Últimas noticias de la Agencia Efe. Fehaciente, fidedigno y fácil. La información con EFE. Edición España.</description>
+        <item>
+        <title>La clase del jueves</title>
+        <link>https://misentradasymispaginas.wordpress.com/2021/04/21/orientemedioyelcovid/</link>
+        <description>No por mucho madrugar amanece más temprano dormilón.</description>
+        </item>
+    </channel>
+</rss>

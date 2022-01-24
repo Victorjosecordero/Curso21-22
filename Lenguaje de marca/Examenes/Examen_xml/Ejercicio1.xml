@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><!-- En la version del rss faltaban la comillas-->
+    <channel>
+        <title>Diario de Sevilla - Home</title>
+        <link>https://www.diariodesevilla.es/</link><!--Le he puesto la etiqueta de cierre que le faltaba-->
+        <description>Diario de Sevilla</description>
+        <language>es</language><!--He corregido la etiqueta de cierre ya que estaba mal escrita-->
+        <item>
+            <title>Coronavirus Sevilla: Los contagios bajan del millar pero repuntan los hospitalizados</title>
+            <link>https://www.diariodesevilla.es/sevilla/coronavirus-sevilla-18-enero-2022_0_1648636337</link>
+            <description>
+            Avance informativo.<!--Avance infomativo no estaba en ninguna etiqueta asi que he decidido meterlo en la eitqueta de descripcion-->
+            Los hospitales alcanzan su cifra de ingresos más alta de la sexta ola con 430 pacientes</description>
+        </item> 
+        <item><!--Aqui habia un item suelto y he añadido lo que flataba-->
+            <title>Coronavirus Sevilla: Los contagios bajan del millar pero repuntan los hospitalizados</title>
+            <link>https://www.diariodesevilla.es/sevilla/coronavirus-sevilla-18-enero-2022_0_1648636337</link>
+            <description>
+            Avance informativo.<!--Avance infomativo no estaba en ninguna etiqueta asi que he decidido meterlo en la eitqueta de descripcion-->
+            Los hospitales alcanzan su cifra de ingresos más alta de la sexta ola con 430 pacientes</description>
+        </item>
+
+    </channel>
+</rss><!--Aqui he cambiado RSS por rss ya que no puede estar en mayusculas al estar la otra es minuscula-->

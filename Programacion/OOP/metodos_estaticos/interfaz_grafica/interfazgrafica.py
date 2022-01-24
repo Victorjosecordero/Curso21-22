@@ -1,19 +1,17 @@
-"""
-Hacer un programa para simular un juego de tablero sencillo:
-        - Habrá dos jugadores.
-        - Por turnos, cada uno tira un dado y se van sumando sus puntuaciones.
-        - El primero que llegue a 100 puntos gana.
-       
-El programa debe simular las tiradas de los dados e imprimir el resultado de cada tirada.
-Ejemplo: Jugador: 1 Tirada: 17 Puntos: 45
-Cuando gane uno de los jugadores debe imprimir: ¡¡El jugador X HA GANADO!!
-Se debe entregar:
-        - Programa en versión funcional (sin clases)
-        - Programa en versión orientada a objetos (usando clases)
-NOTA: ES necesario demostrar que el programa funciona, con pruebas unitarias (recomendado) o de alguna otra forma.
-"""
+from distutils.command.sdist import sdist
 from random import randint
-import pprint
+from tkinter import Tk
+from tkinter import ttk
+
+raiz = Tk()
+
+raiz.title('Juego de tablero')
+raiz.geometry('400x300')
+raiz.resizable(True,True)
+
+
+
+
 
 def tablero():
 
@@ -53,4 +51,9 @@ def tablero():
             pass
 
 
-tablero()
+
+button = ttk.Button(raiz, text="Nombre Jugador",
+    command=lambda: tablero())
+button.place(x=50, y=100)
+#raiz.iconbitmap("/Programacion/OOP/metodos_estaticos/interfaz_grafica/750_logo_name.png")
+raiz.mainloop() 
