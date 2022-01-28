@@ -12,8 +12,9 @@ Se debe entregar:
         - Programa en versión orientada a objetos (usando clases)
 NOTA: ES necesario demostrar que el programa funciona, con pruebas unitarias (recomendado) o de alguna otra forma.
 """
+#Victor José Peña Cordero
 from random import randint
-import pprint
+
 
 def tablero():
 
