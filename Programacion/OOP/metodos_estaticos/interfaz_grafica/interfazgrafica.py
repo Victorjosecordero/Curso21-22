@@ -1,4 +1,4 @@
-from distutils.command.sdist import sdist
+
 from random import randint
 from tkinter import Tk
 from tkinter import ttk
@@ -52,7 +52,7 @@ def tablero():
 
 
 
-button = ttk.Button(raiz, text="Nombre Jugador",
+button = ttk.Button(raiz, text="Pulsa para Jugar",
     command=lambda: tablero())
 button.place(x=50, y=100)
 #raiz.iconbitmap("/Programacion/OOP/metodos_estaticos/interfaz_grafica/750_logo_name.png")

@@ -1,0 +1,8 @@
+<!ELEMENT pizzas (ingredientes, tipos)>
+   <!ELEMENT ingredientes (ingrediente)*>
+      <!ELEMENT ingrediente (#PCDATA)>
+         <!ATTLIST ingrediente coding ID #REQUIRED>
+   <!ELEMENT tipos (tipo)*>
+      <!ELEMENT tipo EMPTY>
+         <!ATTLIST tipo nombre CDATA #REQUIRED>
+         <!ATTLIST tipo ingredientes IDREFS #REQUIRED>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE productos [
+   <!ELEMENT productos (producto)*>
+   <!ELEMENT producto (identificacion, nombre?)>
+   <!ELEMENT identificacion (codigo | id)*>
+   <!ELEMENT codigo (#PCDATA)>
+   <!ELEMENT id (#PCDATA)>
+   <!ELEMENT nombre (#PCDATA)>
+]>
+
+<productos>
+<producto>
+   <identificacion>
+      <codigo>TAL264MA</codigo>
+      <id>34890</id>
+      <nombre>Taladradora de mano.</nombre>
+   </identificacion>
+</producto>
+<producto>
+   <nombre>Recolectora</nombre>
+   <identificacion>
+      <codigo>MAR321</codigo>
+      <id>678984</id>
+      <codigo>MAN90</codigo>
+      <id>610988</id>
+   </identificacion>
+</producto>
+<producto>
+   <nombre>Atornilladora</nombre> 
+   <identificacion>
+      <codigo>ATT098P</codigo>
+      <id>61900</id>
+   </identificacion>
+</producto>
+</productos>

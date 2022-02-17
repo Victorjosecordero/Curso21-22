@@ -1,0 +1,4 @@
+<!ELEMENT coches (Modelo)*>
+<!ELEMENT modelo (descripcion,
+ <!ATTLIST modelo codigo ID REQUIRED>
+ <!ATTLIST modelo Modelos_relacionados !DREFS #IMPLIED>

@@ -21,3 +21,6 @@ def dividir(a,b):
         return resultado
 
 print(dividir(5,'dos'))
+
+
+

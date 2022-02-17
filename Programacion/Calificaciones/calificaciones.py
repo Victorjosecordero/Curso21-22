@@ -1,6 +1,9 @@
 
+from runpy import run_path
 
 
+class NotaInvalidasError(Exception):
+    pass
 class Calificacion():
     def __init__(self, alumno_notas=[]) -> None:
 
@@ -46,8 +49,16 @@ class Calificacion():
 
     @notas.setter
     def notas(self, nuevas_notas):
-        self.__notas = nuevas_notas
-        self.__calificacion = self.calcula_calificacion()
+        # if self.valida_notas(nuevas_notas):
+        #     self.__notas = nuevas_notas
+        #     self.__calificacion = self.calcula_calificacion()
+        # else:
+        #     raise Exception('Notas invalidas')
+        try:
+            if self.valida_notas(nuevas_notas):
+                self.__notas = nuevas_notas
+        except Exception:
+            print('Notas invalidas')
 
     @property
     def calificacion(self):
@@ -63,10 +74,24 @@ class Calificacion():
         """
         valido = True
         if lista_notas == []:
-            valido = False
+            # valido = False
+            raise NotaInvalidasError('La lista de notas está vacia')
 
         for nota in lista_notas:
             if not type(nota) in (int,float) or not (0.0<= nota <= 10.0):
-                valido = False
-
+                # valido = False
+                raise NotaInvalidasError('Tipo de datos o valores incorrectos')
         return valido
+
+
+    def leer_alumnos(csv):
+        ruta =''
+        hay_cabecera = False
+        f = open(ruta + 'titanic_nombres.csv','a')
+        escribir = f(csv_writer)
+        if not hay_cabecera:
+            escribir.writerow(["Nombre","Clase","Sexo"])
+            hay_cabecera = True
+        else:
+            escribir.writerow([i["Name"],i["Pclass"],i["Sex"]])
+                    

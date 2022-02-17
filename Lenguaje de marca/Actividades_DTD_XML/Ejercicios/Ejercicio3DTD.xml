@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE formas SYSTEM "Ejercicio3DTD.dtd">
+<formas>
+   <cuadrado lados="4">tablero</cuadrado>
+   <circulo>anilla</circulo>
+   <triangulo>señal</triangulo>
+   <otra lados="7">
+</formas>

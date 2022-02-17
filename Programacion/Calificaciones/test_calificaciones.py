@@ -1,4 +1,3 @@
-from decimal import DefaultContext
 from calificaciones import Calificacion
 import unittest as ut
 
