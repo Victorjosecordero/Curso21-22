@@ -1,0 +1,17 @@
+<!ENTITY % t "(#PCDATA)" >
+<!ENTITY img1 SYSTEM "el_asesinato_de_pitagoras.jpg" NDATA jpg >
+<!ENTITY img2 SYSTEM "Wordpress_40_La_tela_de_la_araña.png" NDATA png >
+<!NOTATION jpg SYSTEM "image/jpg" >
+<!NOTATION png SYSTEM "image/png" >
+<!ELEMENT biblioteca (libro)+ >
+<!ELEMENT libro (autor+, foto, editorial, edicion, isbn, donacion?, ubicacion) >
+    <!ATTLIST libro codigo ID #REQUIRED
+                    titulo CDATA #REQUIRED>
+<!ELEMENT autor %t; >
+<!ELEMENT foto EMPTY >
+    <!ATTLIST foto imagen ENTITY #IMPLIED>
+<!ELEMENT editorial %t; >
+<!ELEMENT edicion %t; >
+<!ELEMENT isbn %t; >
+<!ELEMENT donacion EMPTY >
+<!ELEMENT ubicacion EMPTY >

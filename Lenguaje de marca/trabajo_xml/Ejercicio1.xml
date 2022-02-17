@@ -1,26 +1,24 @@
-
-<!ELEMENT biblioteca (libros)*>
-<!ELEMENT libros (titulo, autor,fotoportada,editorial,edicion,ISBN)>
-<!ELEMENT titulo (#PCDATA)>
-<!ELEMENT autor (#PCDATA)>
-<!ELEMENT fotoportada (#PCDATA)>
-<!ELEMENT editorial (#PCDATA)>
-<!ELEMENT edicion (#PCDATA)>
-<!ELEMENT ISBN (#PCDATA)>
-
-<!-- Se quiere crear una biblioteca de libros en un documento XML. Para ello se necesita
-además crear un documento DTD que permita almacenar la siguiente información:
- Código interno del libro.
- Título
- Autor o autores.
- Foto de portada
- Editorial
- Edición
- ISBN
- Donación (este dato sólo aparecerá en la ficha del libro si ha sido incorporado
-por una donación, no por compra).
- Ubicación (la biblioteca cuenta con tres sedes actualmente: centro, norte y sur)
-El documento XML debe tener al menos dos libros con toda la información.
-El documento DTD debe incluir obligatoriamente definiciones de elementos
-(ELEMENT), atributos (ATTLIST) y si fuera necesario de identidades (ENTITY) y
-notaciones (NOTATION) -->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca_libros.dtd" [
+    <!ATTLIST ubicacion sede (norte | centro | sur) #REQUIRED >
+]>
+<biblioteca>
+    <libro codigo="N10301" titulo="El asesinato de Pitágoras">
+        <autor>Marcos Chicot</autor>
+        <foto imagen="img1"/>
+        <editorial>Duomo Editorial</editorial>
+        <edicion>2013</edicion>
+        <isbn>9788415945093</isbn>
+        <donacion/>
+        <ubicacion sede="sur"/>
+    </libro>
+    <libro codigo="C15234" titulo="Wordpress 4.0 La tela de la araña">
+        <autor>Fernando Tellado</autor>
+        <autor>Yoani Sánchez</autor>
+        <foto imagen="img2"/>
+        <editorial>Anaya</editorial>
+        <edicion>2016</edicion>
+        <isbn>978-84-415-3547-3</isbn>
+        <ubicacion sede="centro"/>
+    </libro>
+</biblioteca>
