@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca_libros.dtd" [
+    <!ATTLIST ubicacion sede (norte | centro | sur) #REQUIRED >
+]>
+<biblioteca>
+    <libro codigo="A66697" titulo="Lenguajes de marcas">
+        <autor>Antonio Pino</autor>
+        <foto imagen="img1"/>
+        <editorial>Santillana</editorial>
+        <edicion>2010</edicion>
+        <isbn>7895641234567</isbn>
+        <donacion/>
+        <ubicacion sede="norte"/>
+    </libro>
+    <libro codigo="T92112" titulo="Python and Java">
+        <autor>Cedric Holland</autor>
+        <autor>Sara Turner</autor>
+        <foto imagen="img2"/>
+        <editorial>Oxford</editorial>
+        <edicion>2021</edicion>
+        <isbn>555-12-983-4752-0</isbn>
+        <ubicacion sede="sur"/>
+    </libro>
+</biblioteca>
