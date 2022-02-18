@@ -1,12 +1,11 @@
-<!ENTITY % t "(#PCDATA)" >
-<!ELEMENT matricula (personal, pago)+ >
-<!ELEMENT personal (dni, nombre, titulacion, curso_academico, domicilios) >
-<!ELEMENT pago (tipo_matricula) >
-<!ELEMENT domicilios (domicilio)+ >
-<!ELEMENT dni %t; >
-<!ELEMENT nombre %t; >
-<!ELEMENT titulacion %t; >
-<!ELEMENT curso_academico %t; >
-<!ELEMENT tipo_matricula %t; >
-<!ELEMENT domicilio (nombre) >
-    <!ATTLIST domicilio tipo (familiar | habitual) #REQUIRED >
+<!ELEMENT matricula (personal, pago)+>
+<!ELEMENT personal (dni, nombre, titulacion, curso_academico, domicilios)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT titulacion (#PCDATA)>
+<!ELEMENT curso_academico (#PCDATA)>
+<!ELEMENT domicilios (domicilio+)>
+  <!ATTLIST domicilio tipo (familiar|habitual) #REQUIRED>
+<!ELEMENT domicilio (nombre)>
+<!ELEMENT pago (tipo_matricula)>
+<!ELEMENT tipo_matricula (#PCDATA)>
